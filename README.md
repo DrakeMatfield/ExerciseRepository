@@ -14,7 +14,7 @@ To get started with the Exercise Repository project:
 
 1. **Clone the Repository**: Clone the project to your local machine using the following command:
    ```bash
-   git clone https://github.com/yourusername/ExerciseRepository.git
+   git clone https://github.com/DrakeMatfield/ExerciseRepository.git
    ```
 2. **Open the Project**: Open the solution file (`ExerciseRepository.sln`) in Visual Studio.
 3. **Install Dependencies**: Ensure you have the .NET Framework 3.5 installed on your system. Other dependencies will be resolved within Visual Studio.
@@ -32,12 +32,12 @@ This is a public project, and contributions are welcome. Please be aware of the 
 
 If you need assistance with the project, you can:
 
-- **Open an Issue**: Create an issue on the [GitHub Issues](https://github.com/yourusername/ExerciseRepository/issues) page for any bugs, questions, or feature requests.
+- **Open an Issue**: Create an issue on the [GitHub Issues](https://github.com/DrakeMatfield/ExerciseRepository/issues) page for any bugs, questions, or feature requests.
 - **Contact Maintainers**: Reach out to the project maintainers via email or GitHub for direct support.
 
 ## Maintainers and Contributors
 
-The Exercise Repository project is maintained by [Your Name](https://github.com/yourusername). We welcome contributions from the community. If you wish to contribute, please review the contribution guidelines and submit your pull requests.
+The Exercise Repository project is maintained by Drake Matfield (https://github.com/DrakeMatfield). We welcome contributions from the community. If you wish to contribute, please review the contribution guidelines and submit your pull requests.
 
 ## My Personal Attitude 
 
