@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2203.0" height="3230.0" viewBox="-1189.0 -1830.0 2203.0 3230.0" version="1.1">
+<defs>
+<pattern id="custom_5159404" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" preserveAspectRatio="none" width="1" height="1">
+<image x="0" y="0" preserveAspectRatio="none" width="1" height="1" xlink:href="data:image/png;base64,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"/>
+</pattern>
+<pattern id="poweredby_logo" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" preserveAspectRatio="none" width="1" height="1">
+<image x="0" y="0" preserveAspectRatio="none" width="1" height="1" xlink:href="data:image/png;base64,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"/>
+</pattern>
+</defs>
+<rect x="-1189.0" y="-1830.0" width="2203.0" height="3230.0" fill="rgb(255,255,255)"/>
+<polygon id="s209548138" points="-220.01486,-279.99994 959.9851,-279.99994 959.9851,1319.9998 -220.01486,1319.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t209548138">
+<text xml:space="preserve" x="369.98514" y="525.49603" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s143695963" points="-1160.0,180.0 -280.0,180.0 -279.99997,1320.0 -1160.0,1319.9999 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t143695963">
+<text xml:space="preserve" x="-720.0" y="755.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s202169828" points="-1160.0,-840.0 -720.0,-840.0 -720.0007,159.99997 -1160.0,159.99997 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t202169828">
+<text xml:space="preserve" x="-940.0" y="-334.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s131215608" points="-1100.0,840.0 -300.0,840.0 -300.0,1299.9998 -1100.0,1299.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t131215608">
+<text xml:space="preserve" x="-700.0" y="1075.496" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s239099047" points="-680.0,-1660.0 100.0,-1660.0 99.99968,-1240.0 -680.0,-1240.001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<polygon id="s203119891" points="-660.0002,-820.0 -280.01752,-820.0 -280.02362,-100.000046 -660.0176,-100.00087 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<polygon id="s121280977" points="-179.99995,460.00006 300.00003,460.00006 300.00003,800.0001 -179.99995,800.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t121280977">
+<text xml:space="preserve" x="60.000046" y="635.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s125262902" points="320.00003,640.0001 700.0,640.0001 700.0,940.0001 320.00003,940.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t125262902">
+<text xml:space="preserve" x="510.0" y="795.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s61794103" points="320.00003,960.0001 700.0,960.0001 700.0,1239.9998 320.00003,1239.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t61794103">
+<text xml:space="preserve" x="510.0" y="1105.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s125133988" points="160.00003,-239.99994 420.00003,-239.99994 420.00003,140.00012 160.00003,140.00012 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t125133988">
+<text xml:space="preserve" x="290.00003" y="-44.503815" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s156566978" points="320.00003,400.00006 700.0,400.00006 700.0,620.0001 320.00003,620.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t156566978">
+<text xml:space="preserve" x="510.0" y="515.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s209584653" points="320.00003,160.00006 700.0,160.00006 700.0,380.00006 320.00003,380.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t209584653">
+<text xml:space="preserve" x="510.0" y="275.49615" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s100017936" points="-120.0008,-139.99994 139.9992,-139.99994 139.9992,140.00006 -120.0008,140.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t100017936">
+<text xml:space="preserve" x="9.999199" y="5.496155" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s117489619" points="440.00003,-139.99994 699.9999,-139.99994 699.9999,140.00018 440.00003,140.00018 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t117489619">
+<text xml:space="preserve" x="569.99994" y="5.496216" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s1421833" points="-159.99847,479.99997 100.00116,479.99997 100.00116,760.00024 -159.99847,760.00024 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t1421833">
+<text xml:space="preserve" x="-29.998657" y="625.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s24230926" points="-860.0,640.0 -520.0,640.0 -520.0,820.0 -860.0,820.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t24230926">
+<text xml:space="preserve" x="-690.0" y="735.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s93161007" points="-660.0,480.0 -320.0,480.0 -320.0,620.0 -660.0,620.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t93161007">
+<text xml:space="preserve" x="-490.0" y="555.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s58631228" points="-759.99994,999.99976 -619.99994,999.99976 -619.99994,1279.9998 -759.99994,1279.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0">
+<g id="t58631228">
+<text xml:space="preserve" x="-689.99994" y="1145.4958" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</polygon>
+<polygon id="s5771906" points="-660.0,-1600.0 -560.0,-1600.0 -560.00085,-1260.0 -660.0,-1260.0009 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<polygon id="s1704239" points="-640.0,-400.0 -540.0,-400.0 -540.00037,-220.0 -640.0,-220.00002 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<polygon id="s265653994" points="-640.0,-760.0 -540.0,-760.0 -540.0,-580.0 -640.0,-580.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="s90072517">
+<polygon id="s90072517" points="200.00002,-840.0 570.99976,-840.0 570.99976,-347.00125 200.00002,-347.00125 " fill="url(#custom_5159404)"/>
+<g id="t90072517">
+<text xml:space="preserve" x="385.49988" y="-332.2151" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="s126978842">
+<ellipse id="s126978842" cx="510.00003" cy="789.9967" rx="50.0" ry="49.999996" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t126978842">
+<text xml:space="preserve" x="483.50003" y="795.4928" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise </text>
+</g>
+</g>
+<g id="s24532555">
+<ellipse id="s24532555" cx="510.00052" cy="1049.9963" rx="50.0" ry="49.999996" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t24532555">
+<text xml:space="preserve" x="500.50052" y="1055.4924" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">set</text>
+</g>
+</g>
+<g id="s112183336">
+<ellipse id="s112183336" cx="510.00003" cy="1189.9939" rx="30.0" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t112183336">
+<text xml:space="preserve" x="500.00003" y="1195.49" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">rep</text>
+</g>
+</g>
+<g id="s247765313">
+<ellipse id="s247765313" cx="650.0" cy="1049.9944" rx="30.000002" ry="30.000002" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t247765313">
+<text xml:space="preserve" x="627.5" y="1055.4905" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">weight </text>
+</g>
+</g>
+<g id="s162348774">
+<ellipse id="s162348774" cx="610.0" cy="690.0001" rx="30.0" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t162348774">
+<text xml:space="preserve" x="584.5" y="695.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">muscles</text>
+</g>
+</g>
+<g id="s64097319">
+<ellipse id="s64097319" cx="510.00003" cy="470.00006" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t64097319">
+<text xml:space="preserve" x="498.50003" y="475.49615" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s223166164">
+<ellipse id="s223166164" cx="650.0" cy="470.00006" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t223166164">
+<text xml:space="preserve" x="636.0" y="475.49615" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">date</text>
+</g>
+</g>
+<g id="s251693181">
+<ellipse id="s251693181" cx="650.0" cy="790.0001" rx="30.000002" ry="29.999998" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t251693181">
+<text xml:space="preserve" x="623.5" y="795.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">duration</text>
+</g>
+</g>
+<g id="s176055154">
+<ellipse id="s176055154" cx="370.00003" cy="1049.9963" rx="30.0" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t176055154">
+<text xml:space="preserve" x="346.00003" y="1055.4924" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">number</text>
+</g>
+</g>
+<g id="s105464771">
+<ellipse id="s105464771" cx="510.00003" cy="230.00012" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t105464771">
+<text xml:space="preserve" x="486.50003" y="235.49622" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">routine </text>
+</g>
+</g>
+<g id="g195654720">
+<polygon id="s152976798" points="180.00003,11.110062 268.89005,11.110062 268.89005,100.00006 180.00003,100.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s249204863" points="268.89005,11.110062 268.89005,100.00006 280.00003,88.89006 280.00003,6.1035156E-5 191.11003,6.1035156E-5 180.00003,11.110062 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s206596172" d="M 268.889,11.110897 280.00015,-4.272461E-4 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t195654720">
+<text xml:space="preserve" x="204.94504" y="61.051155" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">profile</text>
+</g>
+</g>
+<g id="g34746233">
+<ellipse id="s80461973" cx="670.0001" cy="350.00006" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s128751018" cx="670.0001" cy="350.00006" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t34746233">
+<text xml:space="preserve" x="670.0" y="374.7862" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g214647998">
+<ellipse id="s93435291" cx="670.0" cy="590.0001" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s88194360" cx="670.0" cy="590.0001" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t214647998">
+<text xml:space="preserve" x="670.0" y="614.78625" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g175266079">
+<ellipse id="s99930385" cx="670.0" cy="910.0001" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s85353078" cx="670.0" cy="910.0001" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t175266079">
+<text xml:space="preserve" x="670.0" y="934.78625" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g114398316">
+<ellipse id="s164368503" cx="670.0" cy="1209.9998" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s200373476" cx="670.0" cy="1209.9998" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t114398316">
+<text xml:space="preserve" x="670.0" y="1234.7859" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g167594549">
+<ellipse id="s63204685" cx="190.00008" cy="-209.99992" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s176041986" cx="190.00008" cy="-209.99992" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t167594549">
+<text xml:space="preserve" x="190.00003" y="-185.21378" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g124972746">
+<ellipse id="s233258259" cx="669.99963" cy="110.00008" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s264436560" cx="669.99963" cy="110.00008" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t124972746">
+<text xml:space="preserve" x="669.9997" y="134.78639" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="s183330875">
+<ellipse id="s183330875" cx="509.9999" cy="50.000126" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t183330875">
+<text xml:space="preserve" x="496.4999" y="55.49622" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">plan</text>
+</g>
+</g>
+<g id="g91851608">
+<polygon id="s242717001" points="20.00003,11.110062 108.89003,11.110062 108.89003,100.00006 20.00003,100.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s245582414" points="108.89003,11.110062 108.89003,100.00006 120.00003,88.89006 120.00003,6.1035156E-5 31.110031,6.1035156E-5 20.00003,11.110062 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s41850735" d="M 108.88887,11.110901 120.000015,-4.272461E-4 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t91851608">
+<text xml:space="preserve" x="54.94503" y="61.051155" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s189093041">
+<ellipse id="s189093041" cx="70.00003" cy="-89.99994" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t189093041">
+<text xml:space="preserve" x="64.50003" y="-84.503845" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">id</text>
+</g>
+</g>
+<g id="s238628246">
+<ellipse id="s238628246" cx="-69.99997" cy="50.00006" rx="30.000002" ry="29.999998" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t238628246">
+<text xml:space="preserve" x="-87.49997" y="55.496155" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">name</text>
+</g>
+</g>
+<g id="g37768471">
+<ellipse id="s14974076" cx="-89.99989" cy="-109.99988" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s52361477" cx="-89.99989" cy="-109.99988" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t37768471">
+<text xml:space="preserve" x="-89.99996" y="-85.213745" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g61342980">
+<polygon id="s49134938" points="20.00003,231.11006 108.89003,231.11006 108.89003,320.00006 20.00003,320.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<polygon id="s210189195" points="108.89003,231.11006 108.89003,320.00006 120.00003,308.89008 120.00003,220.00006 31.110031,220.00006 20.00003,231.11006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s37413992" d="M 108.888885,231.1112 119.999954,220.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t61342980">
+<text xml:space="preserve" x="48.44503" y="281.05115" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">stats</text>
+</g>
+</g>
+<g id="s86608621">
+<ellipse id="s86608621" cx="-89.998535" cy="530.00006" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t86608621">
+<text xml:space="preserve" x="-95.498535" y="535.49615" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">id</text>
+</g>
+</g>
+<g id="s189959458">
+<ellipse id="s189959458" cx="50.00116" cy="670.0001" rx="30.000002" ry="29.999998" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t189959458">
+<text xml:space="preserve" x="32.50116" y="675.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">name</text>
+</g>
+</g>
+<g id="s57844659">
+<ellipse id="s57844659" cx="10.000977" cy="570.0001" rx="30.000002" ry="29.999998" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t57844659">
+<text xml:space="preserve" x="-24.499023" y="575.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">description</text>
+</g>
+</g>
+<g id="g86142320">
+<ellipse id="s85663873" cx="70.0011" cy="730.0001" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s87708966" cx="70.0011" cy="730.0001" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t86142320">
+<text xml:space="preserve" x="70.0011" y="754.7864" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="s27322601">
+<ellipse id="s27322601" cx="-89.998535" cy="670.0001" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t27322601">
+<text xml:space="preserve" x="-133.49854" y="675.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+</g>
+</g>
+<g id="s95443310">
+<ellipse id="s95443310" cx="640.0" cy="-79.99994" rx="40.0" ry="40.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t95443310">
+<text xml:space="preserve" x="596.5" y="-74.503845" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+</g>
+</g>
+<g id="s6932495">
+<ellipse id="s6932495" cx="400.00003" cy="320.00006" rx="40.0" ry="40.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t6932495">
+<text xml:space="preserve" x="356.50003" y="325.49615" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+</g>
+</g>
+<g id="s43577500">
+<ellipse id="s43577500" cx="400.00003" cy="560.0001" rx="40.0" ry="40.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t43577500">
+<text xml:space="preserve" x="356.50003" y="565.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+</g>
+</g>
+<g id="s152447653">
+<ellipse id="s152447653" cx="400.00003" cy="880.0001" rx="40.0" ry="40.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t152447653">
+<text xml:space="preserve" x="356.50003" y="885.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+</g>
+</g>
+<g id="s827002">
+<ellipse id="s827002" cx="340.00003" cy="-119.99994" rx="40.0" ry="40.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t827002">
+<text xml:space="preserve" x="296.50003" y="-114.503845" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+</g>
+</g>
+<g id="s168089131">
+<polygon id="s168089131" points="740.0,520.0 939.9992,520.0 940.0,660.0 740.0,659.99854 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t168089131">
+<text xml:space="preserve" x="778.5" y="539.75586" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">Day: entity_identity</text>
+<text xml:space="preserve" x="745.0" y="524.9697" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s19662183" d="M 740.0,552.83984 940.0,552.83984 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="576.916" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">datetime date</text>
+<text xml:space="preserve" x="745.0" y="595.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">list &lt;exercise&gt;</text>
+<text xml:space="preserve" x="745.0" y="524.9697" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s235790100" d="M 740.0,608.5801 940.0,608.5801 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="632.65625" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function add exercise </text>
+<text xml:space="preserve" x="745.0" y="651.2363" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function remove exercise </text>
+</g>
+</g>
+<g id="s227703432">
+<polygon id="s227703432" points="740.0,280.0 940.0,280.0 939.99994,420.0 740.0,419.99948 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t227703432">
+<text xml:space="preserve" x="767.5" y="309.0459" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">routine: entity_identity</text>
+<text xml:space="preserve" x="745.0" y="294.25977" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s56116157" d="M 740.0,322.12988 940.0,322.12988 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="346.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">list &lt;day&gt;</text>
+<text xml:space="preserve" x="745.0" y="294.25977" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s40279474" d="M 740.0,359.29004 940.0,359.29004 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="383.3662" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function add day</text>
+<text xml:space="preserve" x="745.0" y="401.9463" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function remove day </text>
+</g>
+</g>
+<g id="s98815009">
+<polygon id="s98815009" points="740.0,40.0 939.9995,40.0 940.0,180.0 740.0,179.99991 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t98815009">
+<text xml:space="preserve" x="776.5" y="69.0459" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">plan: entity_identity</text>
+<text xml:space="preserve" x="745.0" y="54.259766" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s57250051" d="M 740.0,82.12988 940.0,82.12988 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="106.206055" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">list &lt;routine&gt; </text>
+<text xml:space="preserve" x="745.0" y="54.259766" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s158587008" d="M 740.0,119.29004 940.0,119.29004 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="143.36621" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function add routine</text>
+<text xml:space="preserve" x="745.0" y="161.94629" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function remove routine </text>
+</g>
+</g>
+<g id="s213264454">
+<polygon id="s213264454" points="740.0,840.0001 939.9995,840.0001 940.0,980.0001 740.0,980.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t213264454">
+<text xml:space="preserve" x="762.0" y="859.756" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">Exercise : entity_identity</text>
+<text xml:space="preserve" x="745.0" y="844.96985" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s88759993" d="M 740.0,872.83997 940.0,872.83997 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="896.91614" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">timespan duration </text>
+<text xml:space="preserve" x="745.0" y="915.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">list &lt;set&gt;</text>
+<text xml:space="preserve" x="745.0" y="844.96985" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s94167806" d="M 740.0,928.5802 940.0,928.5802 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="952.6564" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function add set</text>
+<text xml:space="preserve" x="745.0" y="971.23645" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">+ function remove set </text>
+</g>
+</g>
+<g id="s100182535">
+<polygon id="s100182535" points="740.0,1159.9998 939.9999,1159.9998 940.0,1259.9998 740.0,1259.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t100182535">
+<text xml:space="preserve" x="830.0" y="1178.3357" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">set</text>
+<text xml:space="preserve" x="745.0" y="1163.5496" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s258619999" d="M 740.0,1191.4197 940.0,1191.4197 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="745.0" y="1215.4958" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">int number</text>
+<text xml:space="preserve" x="745.0" y="1234.0759" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">decimal weight</text>
+<text xml:space="preserve" x="745.0" y="1252.656" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">int reps</text>
+</g>
+</g>
+<g id="s119060276">
+<polygon id="s119060276" points="-59.999275,-259.99994 119.99997,-259.99994 120.000046,-159.99995 -59.99997,-159.99997 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t119060276">
+<text xml:space="preserve" x="-40.99996" y="-223.08392" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">Profile: entity_identity</text>
+<text xml:space="preserve" x="-54.99997" y="-237.87006" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s41811116" d="M -59.99997,-209.99994 120.000046,-209.99994 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="-54.99997" y="-185.92377" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">list &lt;plan&gt;</text>
+</g>
+</g>
+<g id="s59771229">
+<polygon id="s59771229" points="-160.0,-400.0 -20.0,-400.0 -20.0,-300.0 -160.0,-300.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t59771229">
+<text xml:space="preserve" x="-100.0" y="-372.37402" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">bio</text>
+<text xml:space="preserve" x="-155.0" y="-387.16016" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s195636597" d="M -160.0,-359.29004 -20.0,-359.29004 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="-155.0" y="-335.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">guid id</text>
+<text xml:space="preserve" x="-155.0" y="-316.6338" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">string name</text>
+</g>
+</g>
+<g id="s35422930">
+<polygon id="s35422930" points="140.0015,680.0001 280.00168,680.0001 280.00168,779.99976 140.0015,779.99976 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t35422930">
+<text xml:space="preserve" x="164.00159" y="698.3359" font-family="Sans,Helvetica" font-weight="bold" fill="rgb(0,0,0)" font-size="14">entity_identity</text>
+<text xml:space="preserve" x="145.0015" y="683.54974" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<path id="s6304010" d="M 140.0015,711.41986 280.00168,711.41986 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<text xml:space="preserve" x="145.0015" y="735.49603" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">guid id</text>
+<text xml:space="preserve" x="145.0015" y="754.0761" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">string name</text>
+<text xml:space="preserve" x="145.0015" y="772.6562" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">string description</text>
+</g>
+</g>
+<g id="g107732899">
+<ellipse id="s262282619" cx="-690.0" cy="270.0" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s86259608" d="M -740.0,320.0 -640.0,320.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t107732899">
+<text xml:space="preserve" x="-727.5" y="275.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">data access</text>
+</g>
+</g>
+<g id="s86250144">
+<ellipse id="s86250144" cx="-530.0" cy="910.00006" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t86250144">
+<text xml:space="preserve" x="-541.0" y="906.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">xml</text>
+<text xml:space="preserve" x="-563.5" y="924.7862" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">Repository</text>
+</g>
+</g>
+<g id="g97050201">
+<polygon id="s15477745" points="-740.0,860.0 -640.0,860.0 -640.0,960.0 -740.0,960.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s123229142" points="-685.0,865.0 -655.0,865.0 -655.0,885.0 -685.0,885.0 " fill="none"/>
+<path id="s128652887" d="M -685.0,875.00006 -665.0,875.00006 " fill="none" stroke-width="1.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s49362244" cx="-655.0" cy="875.00006" rx="10.0" ry="10.0" fill="none" stroke-width="1.0" stroke="rgb(0,0,0)"/>
+<g id="t97050201">
+<text xml:space="preserve" x="-725.5" y="915.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">IRepository</text>
+</g>
+</g>
+<g id="s203160094">
+<ellipse id="s203160094" cx="-689.99994" cy="1069.9998" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t203160094">
+<text xml:space="preserve" x="-698.99994" y="1066.2058" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">file</text>
+<text xml:space="preserve" x="-723.49994" y="1084.7859" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">Repository</text>
+</g>
+</g>
+<g id="s257086207">
+<ellipse id="s257086207" cx="-850.0" cy="910.00006" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<g id="t257086207">
+<text xml:space="preserve" x="-879.5" y="906.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">database</text>
+<text xml:space="preserve" x="-883.5" y="924.7862" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">Repository</text>
+</g>
+</g>
+<g id="s46643404">
+<ellipse id="s46643404" cx="-490.0" cy="550.0" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t46643404">
+<text xml:space="preserve" x="-510.0" y="555.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">parser</text>
+</g>
+</g>
+<g id="s52430613">
+<ellipse id="s52430613" cx="-370.0" cy="550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t52430613">
+<text xml:space="preserve" x="-389.0" y="555.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">to xml</text>
+</g>
+</g>
+<g id="s101292586">
+<ellipse id="s101292586" cx="-610.0" cy="550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t101292586">
+<text xml:space="preserve" x="-630.5" y="555.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">xml to </text>
+</g>
+</g>
+<g id="g93036571">
+<polygon id="s92706349" points="-740.0,1160.0 -665.0,1160.0 -640.0,1180.0 -640.0,1260.0 -740.0,1260.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s266196834" d="M -665.0,1159.9998 -665.00006,1179.9995 -640.0,1179.9995 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t93036571">
+<text xml:space="preserve" x="-699.0" y="1215.4958" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">file</text>
+</g>
+</g>
+<g id="g119379384">
+<path id="s14729459" d=" M-1080.0,876.67  C-1066.0,854.44 -954.0,854.44 -940.0,876.67  L-940.0,943.33  C-954.0,965.56 -1066.0,965.56 -1080.0,943.33  z" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s158228912" d=" M-1080.0,876.67  C-1066.0,898.89 -954.0,898.89 -940.0,876.67 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t119379384">
+<text xml:space="preserve" x="-1044.5" y="915.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">DATABASE</text>
+</g>
+</g>
+<g id="s260505489">
+<ellipse id="s260505489" cx="-790.0" cy="530.0" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t260505489">
+<text xml:space="preserve" x="-799.5" y="526.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+<text xml:space="preserve" x="-826.5" y="544.78613" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">data_object</text>
+</g>
+</g>
+<g id="s159330038">
+<ellipse id="s159330038" cx="-570.0" cy="690.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t159330038">
+<text xml:space="preserve" x="-584.5" y="695.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">save</text>
+</g>
+</g>
+<g id="s62530295">
+<ellipse id="s62530295" cx="-570.0" cy="770.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t62530295">
+<text xml:space="preserve" x="-580.0" y="775.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">get</text>
+</g>
+</g>
+<g id="s250762596">
+<ellipse id="s250762596" cx="-810.0" cy="770.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t250762596">
+<text xml:space="preserve" x="-830.5" y="766.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">import</text>
+<text xml:space="preserve" x="-821.0" y="784.78613" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">xml</text>
+</g>
+</g>
+<g id="s42664909">
+<ellipse id="s42664909" cx="-810.0" cy="690.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t42664909">
+<text xml:space="preserve" x="-830.0" y="686.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">export</text>
+<text xml:space="preserve" x="-829.0" y="704.78613" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">to xml</text>
+</g>
+</g>
+<g id="g233260162">
+<polygon id="s65234985" points="-740.0,680.0 -640.0,680.0 -640.0,780.0 -740.0,780.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s172361646" points="-685.0,685.0 -655.0,685.0 -655.0,705.0 -685.0,705.0 " fill="none"/>
+<path id="s79460687" d="M -685.0,695.0 -665.0,695.0 " fill="none" stroke-width="1.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s55568604" cx="-655.0" cy="695.0" rx="10.0" ry="10.0" fill="none" stroke-width="1.0" stroke="rgb(0,0,0)"/>
+<g id="t233260162">
+<text xml:space="preserve" x="-725.5" y="735.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">IRepository</text>
+</g>
+</g>
+<g id="g14940051">
+<polygon id="s136404453" points="-420.0,860.0 -345.0,860.0 -320.0,880.0 -320.0,960.0 -420.0,960.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s82768058" d="M -345.0,860.00006 -345.00006,879.9998 -320.0,879.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t14940051">
+<text xml:space="preserve" x="-391.5" y="915.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">xml file</text>
+</g>
+</g>
+<g id="g89198537">
+<polygon id="s15817579" points="-1140.0,-808.89 -1051.11,-808.89 -1051.11,-720.0 -1140.0,-720.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s6338248" points="-1051.11,-808.89 -1051.11,-720.0 -1040.0,-731.11 -1040.0,-820.0 -1128.89,-820.0 -1140.0,-808.89 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s126808929" d="M -1051.1111,-808.88916 -1039.9999,-820.0005 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t89198537">
+<text xml:space="preserve" x="-1105.0549" y="-758.9489" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="g80291534">
+<polygon id="s67853958" points="-1140.0,-568.89 -1051.11,-568.89 -1051.11,-480.0 -1140.0,-480.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s21513031" points="-1051.11,-568.89 -1051.11,-480.0 -1040.0,-491.11 -1040.0,-580.0 -1128.89,-580.0 -1140.0,-568.89 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s3045236" d="M -1051.1108,-568.88916 -1039.9998,-580.0005 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t80291534">
+<text xml:space="preserve" x="-1115.0549" y="-518.9489" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">profile</text>
+</g>
+</g>
+<g id="g80509423">
+<polygon id="s65430685" points="-1140.0,-328.89 -1051.11,-328.89 -1051.11,-240.0 -1140.0,-240.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s170843410" points="-1051.11,-328.89 -1051.11,-240.0 -1040.0,-251.10999 -1040.0,-340.0 -1128.89,-340.0 -1140.0,-328.89 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s188468451" d="M -1051.1111,-328.88892 -1040.0,-340.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t80509423">
+<text xml:space="preserve" x="-1119.0549" y="-278.9489" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">routine </text>
+</g>
+</g>
+<g id="g101772540">
+<polygon id="s192255712" points="-1140.0,-208.89001 -1051.11,-208.89001 -1051.11,-120.0 -1140.0,-120.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s105491865" points="-1051.11,-208.89001 -1051.11,-120.0 -1040.0,-131.10999 -1040.0,-220.0 -1128.89,-220.0 -1140.0,-208.89001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s228178014" d="M -1051.1111,-208.88892 -1040.0,-220.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t101772540">
+<text xml:space="preserve" x="-1107.0549" y="-158.94891" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="g72474501">
+<polygon id="s122967103" points="-1140.0,-448.89 -1051.11,-448.89 -1051.11,-360.0 -1140.0,-360.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s139280652" points="-1051.11,-448.89 -1051.11,-360.0 -1040.0,-371.11 -1040.0,-460.0 -1128.89,-460.0 -1140.0,-448.89 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s234785365" d="M -1051.1111,-448.88892 -1040.0,-460.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t72474501">
+<text xml:space="preserve" x="-1109.0549" y="-398.9489" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">plan</text>
+</g>
+</g>
+<g id="g248832474">
+<polygon id="s105184362" points="-1140.0,-88.890015 -1051.11,-88.890015 -1051.11,0.0 -1140.0,0.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s71562587" points="-1051.11,-88.890015 -1051.11,0.0 -1040.0,-11.109985 -1040.0,-100.0 -1128.89,-100.0 -1140.0,-88.890015 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s85156344" d="M -1051.1111,-88.888916 -1040.0,-100.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t248832474">
+<text xml:space="preserve" x="-1122.0549" y="-38.948914" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise </text>
+</g>
+</g>
+<g id="g101762571">
+<polygon id="s250246865" points="-1140.0,31.109985 -1051.11,31.109985 -1051.11,120.0 -1140.0,120.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<polygon id="s11433270" points="-1051.11,31.109985 -1051.11,120.0 -1040.0,108.890015 -1040.0,20.0 -1128.89,20.0 -1140.0,31.109985 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s264408119" d="M -1051.1111,31.111115 -1040.0,20.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t101762571">
+<text xml:space="preserve" x="-1105.0549" y="81.05109" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">set</text>
+</g>
+</g>
+<g id="g150854888">
+<polygon id="s102278564" points="-1140.0,-688.89 -1051.11,-688.89 -1051.11,-600.0 -1140.0,-600.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<polygon id="s198094605" points="-1051.11,-688.89 -1051.11,-600.0 -1040.0,-611.11 -1040.0,-700.0 -1128.89,-700.0 -1140.0,-688.89 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s23375554" d="M -1051.1111,-688.8887 -1040.0,-700.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t150854888">
+<text xml:space="preserve" x="-1111.5549" y="-638.9489" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">stats</text>
+</g>
+</g>
+<g id="g14020353">
+<ellipse id="s19510483" cx="-690.0" cy="-990.0" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s34371600" d="M -740.0,-940.0002 -640.0,-940.0002 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t14020353">
+<text xml:space="preserve" x="-717.5" y="-993.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">business</text>
+<text xml:space="preserve" x="-704.5" y="-975.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">logic</text>
+</g>
+</g>
+<g id="g95371686">
+<ellipse id="s138686217" cx="-810.0" cy="-370.0" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t95371686">
+<text xml:space="preserve" x="-837.5" y="-373.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">business</text>
+<text xml:space="preserve" x="-832.5" y="-355.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entities</text>
+</g>
+</g>
+<g id="s136863765">
+<ellipse id="s136863765" cx="-510.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t136863765">
+<text xml:space="preserve" x="-529.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-519.5" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="g222814100">
+<ellipse id="s89322766" cx="-690.0" cy="-1750.0" rx="50.0" ry="50.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s30460719" d="M -740.0,-1700.0017 -640.0,-1700.0017 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t222814100">
+<text xml:space="preserve" x="-728.0" y="-1744.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">user actions</text>
+</g>
+</g>
+<g id="s108909106">
+<ellipse id="s108909106" cx="-30.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t108909106">
+<text xml:space="preserve" x="-53.0" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-55.0" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise</text>
+</g>
+</g>
+<g id="s239725443">
+<ellipse id="s239725443" cx="-430.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t239725443">
+<text xml:space="preserve" x="-441.5" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-446.0" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">stats</text>
+</g>
+</g>
+<g id="s93151488">
+<ellipse id="s93151488" cx="-430.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t93151488">
+<text xml:space="preserve" x="-449.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-446.0" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">stats</text>
+</g>
+</g>
+<g id="s154328958">
+<ellipse id="s154328958" cx="-610.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t154328958">
+<text xml:space="preserve" x="-624.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">save</text>
+<text xml:space="preserve" x="-619.5" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s70630623">
+<ellipse id="s70630623" cx="-610.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t70630623">
+<text xml:space="preserve" x="-625.5" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">open</text>
+<text xml:space="preserve" x="-619.5" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s233278764">
+<ellipse id="s233278764" cx="-350.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t233278764">
+<text xml:space="preserve" x="-369.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-369.5" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">profile</text>
+</g>
+</g>
+<g id="s149439576">
+<ellipse id="s149439576" cx="-270.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t149439576">
+<text xml:space="preserve" x="-289.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-283.5" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">plan</text>
+</g>
+</g>
+<g id="s8393515">
+<ellipse id="s8393515" cx="-190.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t8393515">
+<text xml:space="preserve" x="-209.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-212.0" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">routine</text>
+</g>
+</g>
+<g id="s228454005">
+<ellipse id="s228454005" cx="-110.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t228454005">
+<text xml:space="preserve" x="-122.0" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">add</text>
+<text xml:space="preserve" x="-121.5" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s7620311">
+<ellipse id="s7620311" cx="-30.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t7620311">
+<text xml:space="preserve" x="-49.5" y="-1553.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-55.0" y="-1535.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise</text>
+</g>
+</g>
+<g id="s171820729">
+<ellipse id="s171820729" cx="50.0" cy="-1550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t171820729">
+<text xml:space="preserve" x="27.0" y="-1544.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">add set</text>
+</g>
+</g>
+<g id="s248905823">
+<ellipse id="s248905823" cx="-190.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t248905823">
+<text xml:space="preserve" x="-213.0" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-212.0" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">routine</text>
+</g>
+</g>
+<g id="s19396914">
+<ellipse id="s19396914" cx="-270.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t19396914">
+<text xml:space="preserve" x="-288.5" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">delete</text>
+<text xml:space="preserve" x="-283.5" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">plan</text>
+</g>
+</g>
+<g id="s89449601">
+<ellipse id="s89449601" cx="-350.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t89449601">
+<text xml:space="preserve" x="-373.0" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-369.5" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">profile</text>
+</g>
+</g>
+<g id="s67321451">
+<ellipse id="s67321451" cx="-110.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t67321451">
+<text xml:space="preserve" x="-133.0" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-121.5" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s20335466">
+<ellipse id="s20335466" cx="-110.0" cy="-1390.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t20335466">
+<text xml:space="preserve" x="-121.5" y="-1393.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-121.5" y="-1375.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s76234560">
+<ellipse id="s76234560" cx="50.0" cy="-1470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t76234560">
+<text xml:space="preserve" x="27.0" y="-1473.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="40.5" y="-1455.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">set</text>
+</g>
+</g>
+<g id="s120516383">
+<ellipse id="s120516383" cx="50.0" cy="-1390.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t120516383">
+<text xml:space="preserve" x="27.5" y="-1384.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit set</text>
+</g>
+</g>
+<g id="s246088252">
+<ellipse id="s246088252" cx="-30.0" cy="-1390.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t246088252">
+<text xml:space="preserve" x="-41.5" y="-1393.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-55.0" y="-1375.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise</text>
+</g>
+</g>
+<g id="s41244123">
+<ellipse id="s41244123" cx="-490.0" cy="-710.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t41244123">
+<text xml:space="preserve" x="-509.5" y="-713.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-499.5" y="-695.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s243300472">
+<ellipse id="s243300472" cx="-410.0" cy="-230.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t243300472">
+<text xml:space="preserve" x="-433.0" y="-233.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-435.0" y="-215.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise</text>
+</g>
+</g>
+<g id="s104336209">
+<ellipse id="s104336209" cx="-410.0" cy="-630.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t104336209">
+<text xml:space="preserve" x="-421.5" y="-633.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-426.0" y="-615.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">stats</text>
+</g>
+</g>
+<g id="s183873462">
+<ellipse id="s183873462" cx="-490.0" cy="-630.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t183873462">
+<text xml:space="preserve" x="-509.5" y="-633.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-506.0" y="-615.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">stats</text>
+</g>
+</g>
+<g id="s48854199">
+<ellipse id="s48854199" cx="-590.0" cy="-710.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t48854199">
+<text xml:space="preserve" x="-604.5" y="-713.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">save</text>
+<text xml:space="preserve" x="-599.5" y="-695.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s192980004">
+<ellipse id="s192980004" cx="-590.0" cy="-630.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t192980004">
+<text xml:space="preserve" x="-605.5" y="-633.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">open</text>
+<text xml:space="preserve" x="-599.5" y="-615.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s262212493">
+<ellipse id="s262212493" cx="-490.0" cy="-550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t262212493">
+<text xml:space="preserve" x="-509.5" y="-553.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-509.5" y="-535.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">profile</text>
+</g>
+</g>
+<g id="s86315330">
+<ellipse id="s86315330" cx="-490.0" cy="-470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t86315330">
+<text xml:space="preserve" x="-509.5" y="-473.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-503.5" y="-455.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">plan</text>
+</g>
+</g>
+<g id="s118924627">
+<ellipse id="s118924627" cx="-490.0" cy="-390.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t118924627">
+<text xml:space="preserve" x="-509.5" y="-393.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-512.0" y="-375.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">routine</text>
+</g>
+</g>
+<g id="s204856976">
+<ellipse id="s204856976" cx="-490.0" cy="-310.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t204856976">
+<text xml:space="preserve" x="-502.0" y="-313.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">add</text>
+<text xml:space="preserve" x="-501.5" y="-295.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s2085769">
+<ellipse id="s2085769" cx="-490.0" cy="-230.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t2085769">
+<text xml:space="preserve" x="-509.5" y="-233.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">create</text>
+<text xml:space="preserve" x="-515.0" y="-215.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise</text>
+</g>
+</g>
+<g id="s83296142">
+<ellipse id="s83296142" cx="-490.0" cy="-150.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t83296142">
+<text xml:space="preserve" x="-513.0" y="-144.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">add set</text>
+</g>
+</g>
+<g id="s81544111">
+<ellipse id="s81544111" cx="-410.0" cy="-390.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t81544111">
+<text xml:space="preserve" x="-433.0" y="-393.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-432.0" y="-375.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">routine</text>
+</g>
+</g>
+<g id="s113398716">
+<ellipse id="s113398716" cx="-410.0" cy="-470.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t113398716">
+<text xml:space="preserve" x="-428.5" y="-473.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">delete</text>
+<text xml:space="preserve" x="-423.5" y="-455.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">plan</text>
+</g>
+</g>
+<g id="s94969669">
+<ellipse id="s94969669" cx="-410.0" cy="-550.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t94969669">
+<text xml:space="preserve" x="-433.0" y="-553.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-429.5" y="-535.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">profile</text>
+</g>
+</g>
+<g id="s82282138">
+<ellipse id="s82282138" cx="-410.0" cy="-310.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t82282138">
+<text xml:space="preserve" x="-433.0" y="-313.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-421.5" y="-295.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s112421835">
+<ellipse id="s112421835" cx="-330.0" cy="-310.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t112421835">
+<text xml:space="preserve" x="-341.5" y="-313.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-341.5" y="-295.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">day</text>
+</g>
+</g>
+<g id="s255782824">
+<ellipse id="s255782824" cx="-410.0" cy="-150.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t255782824">
+<text xml:space="preserve" x="-433.0" y="-153.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">remove</text>
+<text xml:space="preserve" x="-419.5" y="-135.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">set</text>
+</g>
+</g>
+<g id="s247556801">
+<ellipse id="s247556801" cx="-330.0" cy="-150.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t247556801">
+<text xml:space="preserve" x="-352.5" y="-144.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit set</text>
+</g>
+</g>
+<g id="s153580134">
+<ellipse id="s153580134" cx="-330.0" cy="-230.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t153580134">
+<text xml:space="preserve" x="-341.5" y="-233.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-355.0" y="-215.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">exercise</text>
+</g>
+</g>
+<g id="s179484522">
+<ellipse id="s179484522" cx="-610.0" cy="-1390.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t179484522">
+<text xml:space="preserve" x="-630.0" y="-1393.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">export</text>
+<text xml:space="preserve" x="-619.5" y="-1375.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s258685381">
+<ellipse id="s258685381" cx="-610.0" cy="-1310.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t258685381">
+<text xml:space="preserve" x="-630.5" y="-1313.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">import</text>
+<text xml:space="preserve" x="-619.5" y="-1295.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s250552057">
+<ellipse id="s250552057" cx="-590.0" cy="-530.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t250552057">
+<text xml:space="preserve" x="-610.0" y="-533.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">export</text>
+<text xml:space="preserve" x="-599.5" y="-515.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="s223918185">
+<ellipse id="s223918185" cx="-590.0" cy="-450.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t223918185">
+<text xml:space="preserve" x="-610.5" y="-453.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">import</text>
+<text xml:space="preserve" x="-599.5" y="-435.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">bio</text>
+</g>
+</g>
+<g id="g152143124">
+<ellipse id="s153683260" cx="-629.99994" cy="-790.0" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s242725573" cx="-629.99994" cy="-790.0" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t152143124">
+<text xml:space="preserve" x="-630.0" y="-765.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="g267723765">
+<polygon id="s181228570" points="-1140.0,300.0 -860.0,300.0 -860.0,440.0 -1140.0,440.0 " fill="none"/>
+<path id="s254339915" d="M -1140.0,440.0 -860.0,440.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t267723765">
+<text xml:space="preserve" x="-1134.0" y="338.33594" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">all data access work on a (bio data_object).</text>
+<text xml:space="preserve" x="-1000.0" y="356.91602" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+<text xml:space="preserve" x="-1127.0" y="375.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">it assumed whatever data that is needed </text>
+<text xml:space="preserve" x="-1127.5" y="394.07617" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">to save, get, export or import will be in the</text>
+<text xml:space="preserve" x="-1037.0" y="412.65625" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">data object.</text>
+</g>
+</g>
+<g id="s108718938">
+<ellipse id="s108718938" cx="-590.0" cy="-350.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t108718938">
+<text xml:space="preserve" x="-613.5" y="-353.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">rename</text>
+<text xml:space="preserve" x="-607.5" y="-335.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity</text>
+</g>
+</g>
+<g id="s62966683">
+<ellipse id="s62966683" cx="-590.0" cy="-270.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t62966683">
+<text xml:space="preserve" x="-601.5" y="-273.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-624.5" y="-255.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">description</text>
+</g>
+</g>
+<g id="s79111844">
+<ellipse id="s79111844" cx="-510.0" cy="-1290.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t79111844">
+<text xml:space="preserve" x="-521.5" y="-1293.794" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-527.5" y="-1275.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity</text>
+</g>
+</g>
+<g id="s198186535">
+<ellipse id="s198186535" cx="-590.0" cy="-170.0" rx="30.000002" ry="30.0" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t198186535">
+<text xml:space="preserve" x="-601.5" y="-173.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">edit</text>
+<text xml:space="preserve" x="-607.5" y="-155.21387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">entity</text>
+</g>
+</g>
+<g id="g227018538">
+<path id="s52377896" d=" M-746.72406,-1164.6552  C-766.0344,-1178.4482 -746.72406,-1206.0344 -722.5861,-1192.2413  C-717.75854,-1206.0344 -698.44824,-1199.138 -693.6206,-1192.2413  C-679.1379,-1199.138 -650.17236,-1206.0344 -645.3448,-1192.2413  C-630.862,-1199.138 -616.3793,-1185.3448 -630.862,-1157.7587  C-611.5517,-1157.7587 -621.20685,-1137.069 -630.862,-1130.1724  C-626.0344,-1109.4828 -640.51715,-1102.5862 -679.1379,-1109.4828  C-698.44824,-1102.5862 -756.3793,-1088.7931 -737.0689,-1116.3793  C-766.0344,-1116.3793 -766.0344,-1164.6552 -746.72406,-1164.6552  z" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t227018538">
+<text xml:space="preserve" x="-719.49994" y="-1144.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14">presenter</text>
+</g>
+</g>
+<g id="g63765522">
+<ellipse id="s77968961" cx="-649.99994" cy="-1630.0" rx="9.999823" ry="9.999999" fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s257726438" cx="-649.99994" cy="-1630.0" rx="6.249889" ry="6.2499976" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t63765522">
+<text xml:space="preserve" x="-650.0" y="-1605.2139" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la77771765">
+<path id="s77771765" d="M 560.0,470.00006 620.0,470.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s43577639" d="M 580.0,470.00006 591.25,470.00006 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s264421332" d=" M580.0,460.00006  C595.0,460.00006 595.0,480.00006 580.0,480.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s240547197" cx="580.0" cy="470.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s239750258" d="M 610.8219,477.73068 620.0,470.00006 610.8219,462.26944 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t77771765">
+<text xml:space="preserve" x="590.0" y="462.20612" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la10057098">
+<path id="s10057098" d="M 230.00003,6.1035156E-5 311.71576,-91.71567 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s108397888" d="M 243.30464,-14.932703 250.78848,-23.33238 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s89779321" d=" M235.83826,-21.585007  C245.81671,-32.784576 260.74948,-19.47997 250.77103,-8.280399 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s200064446" cx="243.30464" cy="-14.932703" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s76602911" d="M 311.38217,-79.72031 311.71576,-91.71567 299.83823,-90.00558 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t10057098">
+<text xml:space="preserve" x="274.8579" y="-40.36171" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la98781179">
+<path id="s98781179" d="M 545.3554,754.64136 588.7868,711.2133 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<ellipse id="s5649772" cx="549.5982" cy="750.39886" rx="6.0" ry="6.0" fill="rgb(0,0,0)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s109303605" d="M 587.7628,723.16956 588.7868,711.2133 576.8305,712.2364 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t98781179">
+<text xml:space="preserve" x="571.0711" y="738.42346" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la148262936">
+<path id="s148262936" d="M 474.64468,265.35547 428.2843,291.7158 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s162723786" d="M 457.25864,275.2411 447.479,280.80176 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s149896507" d=" M462.20145,283.9341  C449.16193,291.34833 439.2763,273.96228 452.31583,266.54807 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s153566296" cx="457.25864" cy="275.2411" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s237482417" d="M 432.44174,280.45898 428.2843,291.7158 440.08395,293.89944 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t148262936">
+<text xml:space="preserve" x="455.46448" y="284.03174" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la171416177">
+<path id="s171416177" d="M 510.00003,520.00006 510.00003,739.9967 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s250660502" d="M 510.00003,540.00006 510.0,551.25006 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s118125079" d=" M520.0,540.00006  C520.0,555.00006 500.00003,555.00006 500.00003,540.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s50316804" cx="510.00003" cy="540.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s5552109" d="M 502.2694,730.8186 510.00003,739.9967 517.73065,730.8186 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t171416177">
+<text xml:space="preserve" x="514.0" y="635.4945" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la253845590">
+<path id="s253845590" d="M 510.00003,839.9967 510.00052,999.99634 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s40547874" d="M 510.0001,859.9967 510.00012,871.24664 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s188356787" d=" M520.0001,859.99664  C520.0001,874.99664 500.00015,874.99677 500.0001,859.99677 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s146095728" cx="510.0001" cy="859.9967" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s147973609" d="M 502.26987,990.81824 510.00052,999.99634 517.7311,990.81824 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t253845590">
+<text xml:space="preserve" x="514.00024" y="925.4926" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la85223639">
+<path id="s85223639" d="M 460.00052,1049.9963 400.00003,1049.9963 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s10621550" d="M 440.00052,1049.9963 428.75052,1049.9963 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s95653135" d=" M440.00052,1059.9963  C425.00052,1059.9963 425.00052,1039.9963 440.00052,1039.9963 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s185061788" cx="440.00052" cy="1049.9963" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s249165733" d="M 409.17813,1042.2657 400.00003,1049.9963 409.17813,1057.7269 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t85223639">
+<text xml:space="preserve" x="430.00027" y="1042.2024" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la250369476">
+<path id="s250369476" d="M 510.00052,1099.9963 510.00003,1159.9939 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s182511482" d="M 510.00037,1119.9963 510.00024,1131.2463 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s178645803" d=" M520.00037,1119.9965  C520.00024,1134.9965 500.00024,1134.9962 500.00037,1119.9962 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s76442504" cx="510.00037" cy="1119.9963" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s144140577" d="M 502.2695,1150.8157 510.00003,1159.9939 517.7307,1150.8158 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t250369476">
+<text xml:space="preserve" x="514.00024" y="1135.4912" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la106589357">
+<path id="s106589357" d="M 560.0005,1049.9963 620.0,1049.9944 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s184942918" d="M 580.0005,1049.9957 591.2505,1049.9954 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s135663367" d=" M580.0002,1039.9957  C595.0002,1039.9952 595.0008,1059.9952 580.0008,1059.9957 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s6469684" cx="580.0005" cy="1049.9957" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s174093917" d="M 610.82214,1057.7253 620.0,1049.9944 610.82166,1042.264 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t106589357">
+<text xml:space="preserve" x="590.00024" y="1042.2014" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la208350178">
+<path id="s208350178" d="M 474.64468,825.35205 428.2843,851.7159 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s135326674" d="M 457.25922,835.23865 447.47986,840.79987 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s226137251" d=" M462.2025,843.9314  C449.1634,851.3464 439.2768,833.9609 452.31592,826.5459 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s260907936" cx="457.25922" cy="835.23865" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s229841753" d="M 432.4411,840.45886 428.2843,851.7159 440.08408,853.89886 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t208350178">
+<text xml:space="preserve" x="455.46448" y="844.03" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la63748979">
+<path id="s63748979" d="M 560.0,789.9967 620.0,790.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s124646174" d="M 580.0,789.99786 591.25,789.99854 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s18339839" d=" M580.00055,779.99786  C595.00055,779.9987 594.99945,799.9987 579.99945,799.99786 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s154196428" cx="580.0" cy="789.99786" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s200348693" d="M 610.8215,797.7302 620.0,790.0001 610.8223,782.269 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t63748979">
+<text xml:space="preserve" x="590.0" y="782.20447" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la221973040">
+<path id="s221973040" d="M 510.00003,280.00012 510.00003,420.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s117580586" d="M 510.00003,300.00012 510.0,311.25012 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s253490459" d=" M520.0,300.00012  C520.0,315.00012 500.00003,315.00012 500.00003,300.00012 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s24626872" cx="510.00003" cy="300.00012" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s148626577" d="M 502.2694,410.82196 510.00003,420.00006 517.73065,410.82196 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t221973040">
+<text xml:space="preserve" x="514.0" y="355.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la6170281">
+<path id="s6170281" d="M 740.0,350.0 679.99994,350.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t6170281">
+<text xml:space="preserve" x="710.0" y="342.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la127149102">
+<path id="s127149102" d="M 740.0,590.0 679.9998,590.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t127149102">
+<text xml:space="preserve" x="709.9999" y="582.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la112040911">
+<path id="s112040911" d="M 740.0,910.0001 679.9998,910.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t112040911">
+<text xml:space="preserve" x="709.9999" y="902.2062" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la243177820">
+<path id="s243177820" d="M 740.0,1209.9998 679.9998,1209.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t243177820">
+<text xml:space="preserve" x="709.9999" y="1202.2058" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la130647141">
+<path id="s130647141" d="M 120.00001,-209.99994 180.00026,-209.99992 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s200755190" d="M 140.0,-209.99994 151.25,-209.99994 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s242927607" d=" M140.0,-219.99994  C155.0,-219.99992 155.0,-199.99992 140.0,-199.99994 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s54433380" cx="140.0" cy="-209.99994" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t130647141">
+<text xml:space="preserve" x="150.00014" y="-217.79387" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la37901626">
+<path id="s37901626" d="M 545.3553,14.644798 611.7157,-51.715668 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s147894477" d="M 559.49744,0.50265694 567.4524,-7.452297 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s38268290" d=" M552.4264,-6.5684085  C563.03296,-17.175014 577.17505,-3.0328832 566.5685,7.5737224 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s126479507" cx="559.49744" cy="0.50265694" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s142652624" d="M 610.6922,-39.7594 611.7157,-51.715668 599.7594,-50.69213 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t37901626">
+<text xml:space="preserve" x="582.5355" y="-13.039337" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la17966571">
+<path id="s17966571" d="M 509.9999,100.00012 510.00003,180.00012 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s247762121" d="M 509.99994,120.00012 510.0,131.25012 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s151740366" d=" M519.99994,120.00011  C520.0,135.0001 499.99997,135.00014 499.99994,120.00014 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s140295919" cx="509.99994" cy="120.00012" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s226774524" d="M 502.2694,170.82202 510.00003,180.00012 517.73065,170.822 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t17966571">
+<text xml:space="preserve" x="514.0" y="145.49622" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la185200456">
+<path id="s185200456" d="M 740.0,109.999954 679.99945,110.00008 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t185200456">
+<text xml:space="preserve" x="709.99976" y="102.20607" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la64160225">
+<path id="s64160225" d="M 280.00003,50.00006 459.9999,50.000134 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s234892421" d="M 450.8218,57.730743 459.9999,50.000134 450.8218,42.269516 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t64160225">
+<text xml:space="preserve" x="369.99997" y="42.206154" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la7375622">
+<path id="s7375622" d="M 70.00003,6.1035156E-5 70.00003,-59.99994 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s125938394" d="M 70.00003,-19.999939 70.00003,-31.249939 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s48257803" d=" M60.00003,-19.999939  C60.00003,-34.99994 80.00003,-34.99994 80.00003,-19.999939 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s180768232" cx="70.00003" cy="-19.999939" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s194776065" d="M 77.730644,-50.82183 70.00003,-59.99994 62.269417,-50.82183 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t7375622">
+<text xml:space="preserve" x="74.00003" y="-24.503845" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la116078023">
+<path id="s116078023" d="M 20.00003,50.00006 -39.99997,50.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s115317414" d="M 3.0517578E-5,50.00006 -11.2499695,50.000057 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s12033255" d=" M2.964335E-5,60.00006  C-14.99997,60.000057 -14.999969,40.000057 3.1391806E-5,40.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s27680916" cx="3.0517578E-5" cy="50.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s196896573" d="M -30.821863,42.269447 -39.99997,50.00006 -30.821863,57.730675 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t116078023">
+<text xml:space="preserve" x="-9.9999695" y="42.206116" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la192067572">
+<path id="s192067572" d="M 70.00003,100.00006 70.00003,220.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s215661362" d="M 62.269417,210.82196 70.00003,220.00006 77.730644,210.82196 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t192067572">
+<text xml:space="preserve" x="74.00003" y="165.49615" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la245160733">
+<path id="s245160733" d="M 120.00003,50.00006 180.00003,50.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s148316291" d="M 170.82193,57.730675 180.00003,50.00006 170.82193,42.269447 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t245160733">
+<text xml:space="preserve" x="150.00003" y="42.206112" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la150622610">
+<path id="s150622610" d="M -90.0,-300.0 -89.99989,-119.99988 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s131265024" d="M -97.730515,-129.17798 -89.99989,-119.99988 -82.26929,-129.178 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t150622610">
+<text xml:space="preserve" x="-85.999954" y="-204.50385" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la5990243">
+<path id="s5990243" d="M -39.998535,670.0001 20.001158,670.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s109918777" d="M -19.998535,670.0001 -8.748535,670.0001 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s49633406" d=" M-19.998535,660.0001  C-4.998535,660.0001 -4.998535,680.0001 -19.998535,680.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s48316895" cx="-19.998535" cy="670.0001" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s225783340" d="M 10.823051,677.7307 20.001158,670.0001 10.823052,662.26953 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t5990243">
+<text xml:space="preserve" x="-9.99869" y="662.2062" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la167599968">
+<path id="s167599968" d="M -54.643185,634.6448 -11.212229,591.2133 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s16662773" d="M -40.50113,620.50256 -32.546227,612.54755 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s109739658" d=" M-47.57224,613.4315  C-36.965702,602.8248 -22.823483,616.9669 -33.43002,627.5736 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s71441659" cx="-40.50113" cy="620.50256" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s169672984" d="M -12.235693,603.1696 -11.212229,591.2133 -23.168491,592.23694 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t167599968">
+<text xml:space="preserve" x="-28.927708" y="618.4251" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la137432089">
+<path id="s137432089" d="M -89.998535,620.0001 -89.998535,560.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s88012657" d="M -89.998535,600.0001 -89.998535,588.7501 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s228194646" d=" M-99.998535,600.0001  C-99.998535,585.0001 -79.998535,585.0001 -79.998535,600.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s51088855" cx="-89.998535" cy="600.0001" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s208475844" d="M -82.26792,569.17816 -89.998535,560.00006 -97.72915,569.17816 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t137432089">
+<text xml:space="preserve" x="-85.998535" y="595.4962" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la48755934">
+<path id="s48755934" d="M 140.0015,729.99994 80.00092,730.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t48755934">
+<text xml:space="preserve" x="110.001205" y="722.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la185800383">
+<path id="s185800383" d="M 474.64468,505.3554 428.2843,531.7159 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s117086637" d="M 457.25867,515.2411 447.47903,520.80176 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s206853346" d=" M462.2015,523.9341  C449.162,531.3483 439.2763,513.96234 452.31583,506.5481 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s177287283" cx="457.25867" cy="515.2411" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s143055664" d="M 432.4417,520.45905 428.2843,531.7159 440.08395,533.89954 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t185800383">
+<text xml:space="preserve" x="455.46448" y="524.03174" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la248058252">
+<path id="s248058252" d="M -580.0,910.00006 -640.0,910.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s257172393" d="M -589.1781,917.73065 -580.0,910.00006 -589.1781,902.2695 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s124181806" d="M -620.0,910.00006 -608.75,910.00006 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s230973647" d=" M-620.0,900.00006  C-605.0,900.00006 -605.0,920.00006 -620.0,920.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s20347484" cx="-620.0" cy="910.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t248058252">
+<text xml:space="preserve" x="-610.0" y="902.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la222122197">
+<path id="s222122197" d="M -690.0,780.0 -690.0,860.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s211964261" d="M -697.7306,850.82196 -690.0,860.00006 -682.2694,850.82196 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t222122197">
+<text xml:space="preserve" x="-686.0" y="825.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la192577770">
+<path id="s192577770" d="M -690.0,959.99994 -689.99994,1019.99976 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s252157498" d="M -690.0,979.99994 -689.99994,991.24994 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s55589611" d=" M-680.0,979.99994  C-679.99994,994.99994 -699.99994,994.99994 -700.0,979.99994 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s132046920" cx="-690.0" cy="979.99994" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s32218849" d="M -697.7305,1010.82166 -689.99994,1019.99976 -682.26935,1010.82166 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t192577770">
+<text xml:space="preserve" x="-685.99994" y="995.496" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la90988507">
+<path id="s90988507" d="M -740.0,910.00006 -800.0,910.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s247555078" d="M -760.0,910.00006 -771.25,910.00006 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s125147847" d=" M-760.0,920.00006  C-775.0,920.00006 -775.0,900.00006 -760.0,900.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s254130420" cx="-760.0" cy="910.00006" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s35801117" d="M -790.8219,902.2695 -800.0,910.00006 -790.8219,917.73065 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t90988507">
+<text xml:space="preserve" x="-770.0" y="902.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la45857400">
+<path id="s45857400" d="M -670.0,320.0 -490.0,500.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s234863250" d="M -655.85785,334.14215 -647.90295,342.09708 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s262610019" d=" M-648.7868,327.07108  C-638.18024,337.67767 -652.3223,351.81982 -662.9289,341.21323 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s207581280" cx="-655.85785" cy="334.14215" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s52447513" d="M -501.95627,498.97647 -490.0,500.0 -491.02353,488.04373 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t45857400">
+<text xml:space="preserve" x="-576.0" y="415.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la227485009">
+<path id="s227485009" d="M -440.0,550.0 -400.0,550.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s224062942" d="M -409.1781,557.7306 -400.0,550.0 -409.1781,542.2694 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t227485009">
+<text xml:space="preserve" x="-420.0" y="542.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la16236982">
+<path id="s16236982" d="M -540.0,550.0 -580.0,550.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s199564223" d="M -570.8219,542.2694 -580.0,550.0 -570.8219,557.7306 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t16236982">
+<text xml:space="preserve" x="-560.0" y="542.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la256319159">
+<path id="s256319159" d="M -710.0,320.0 -790.0,480.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s62599820" d="M -718.9443,337.88855 -723.97546,347.95087 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s73620949" d=" M-710.0,342.3607  C-716.7082,355.7771 -734.59674,346.83282 -727.88855,333.4164 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s212077034" cx="-718.9443" cy="337.88855" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s31044827" d="M -792.8099,468.33362 -790.0,480.0 -778.98096,475.24808 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t256319159">
+<text xml:space="preserve" x="-746.0" y="405.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la86902308">
+<path id="s86902308" d="M -689.99994,1119.9998 -690.0,1159.9998 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s187624312" d="M -697.7306,1150.8217 -690.0,1159.9998 -682.26935,1150.8217 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t86902308">
+<text xml:space="preserve" x="-686.0" y="1145.4958" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la240108941">
+<path id="s240108941" d="M -900.0,910.00006 -940.0,910.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s92865105" d="M -930.8219,902.2695 -940.0,910.00006 -930.8219,917.73065 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t240108941">
+<text xml:space="preserve" x="-920.0" y="902.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la238437186">
+<path id="s238437186" d="M -740.0,690.0 -780.0,690.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s95476406" d="M -770.8219,682.2694 -780.0,690.0 -770.8219,697.7306 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t238437186">
+<text xml:space="preserve" x="-760.0" y="682.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la212135763">
+<path id="s212135763" d="M -740.0,770.0 -780.0,770.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s229950391" d="M -770.8219,762.2694 -780.0,770.0 -770.8219,777.7306 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t212135763">
+<text xml:space="preserve" x="-760.0" y="762.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la5726352">
+<path id="s5726352" d="M -640.0,690.0 -600.0,690.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s2311972" d="M -609.1781,697.7306 -600.0,690.0 -609.1781,682.2694 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t5726352">
+<text xml:space="preserve" x="-620.0" y="682.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la67120521">
+<path id="s67120521" d="M -640.0,770.0 -600.0,770.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s143291021" d="M -609.1781,777.7306 -600.0,770.0 -609.1781,762.2694 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t67120521">
+<text xml:space="preserve" x="-620.0" y="762.20605" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la48845198">
+<path id="s48845198" d="M -690.0,320.0 -690.0,680.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s132639810" d="M -690.0,340.0 -690.0,351.25 " fill="none" stroke-width="3.0" stroke="rgb(255,255,255)"/>
+<path id="s80208979" d=" M-680.0,340.0  C-680.0,355.0 -700.0,355.0 -700.0,340.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<ellipse id="s199209360" cx="-690.0" cy="340.0" rx="5.0" ry="5.0" fill="rgb(255,255,255)" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s196651657" d="M -697.7306,670.8219 -690.0,680.0 -682.2694,670.8219 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t48845198">
+<text xml:space="preserve" x="-686.0" y="505.4961" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la101002671">
+<path id="s101002671" d="M -480.0,910.00006 -420.0,910.00006 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s9210510" d="M -429.1781,917.73065 -420.0,910.00006 -429.1781,902.2695 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t101002671">
+<text xml:space="preserve" x="-450.0" y="902.2061" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la3479877">
+<path id="s3479877" d="M -860.0,-370.0 -1040.0,-290.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s98726575" d="M -1034.7527,-300.7919 -1040.0,-290.0 -1028.4733,-286.66327 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t3479877">
+<text xml:space="preserve" x="-946.0" y="-324.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la78444698">
+<path id="s78444698" d="M -860.0,-370.0 -1040.0,-49.999878 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s45504188" d="M -1042.2382,-61.789433 -1040.0,-49.999878 -1028.7626,-54.209393 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t78444698">
+<text xml:space="preserve" x="-946.0" y="-204.50386" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la42005963">
+<path id="s42005963" d="M -860.0,-370.0 -1040.0,-170.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s125331013" d="M -1039.6063,-181.99355 -1040.0,-170.0 -1028.114,-171.65053 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t42005963">
+<text xml:space="preserve" x="-946.0" y="-264.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la30323112">
+<path id="s30323112" d="M -860.0,-370.0 -1040.0,50.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s197837210" d="M -1043.4901,38.518753 -1040.0,50.0 -1029.279,44.609226 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t30323112">
+<text xml:space="preserve" x="-946.0" y="-154.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la252904641">
+<path id="s252904641" d="M -860.0,-370.0 -1040.0,-410.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s57510603" d="M -1029.3634,-415.5555 -1040.0,-410.0 -1032.7174,-400.46246 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t252904641">
+<text xml:space="preserve" x="-950.0" y="-397.79395" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la80872550">
+<path id="s80872550" d="M -860.0,-370.0 -1039.9999,-770.0001 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s166732456" d="M -1029.184,-764.8027 -1039.9999,-770.0001 -1043.2833,-758.45795 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t80872550">
+<text xml:space="preserve" x="-945.99994" y="-564.50397" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la128394151">
+<path id="s128394151" d="M -860.0,-370.0 -1039.9999,-529.99994 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s197009857" d="M -1028.0043,-529.68036 -1039.9999,-529.99994 -1038.2761,-518.12445 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t128394151">
+<text xml:space="preserve" x="-945.99994" y="-444.50388" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la154222676">
+<path id="s154222676" d="M -860.0,-370.0 -1040.0,-650.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s176381286" d="M -1028.534,-646.45996 -1040.0,-650.0 -1041.5397,-638.0992 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t154222676">
+<text xml:space="preserve" x="-946.0" y="-504.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la9055229">
+<path id="s9055229" d="M -690.0,-940.0 -810.0,-420.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s55052455" d="M -815.4689,-430.68137 -810.0,-420.0 -800.40356,-427.20477 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<g id="t9055229">
+<text xml:space="preserve" x="-746.0" y="-674.5039" font-family="Sans,Helvetica" fill="rgb(0,0,0)" font-size="14"/>
+</g>
+</g>
+<g id="la249901231">
+<path id="s249901231" d="M -690.0,-940.0 -629.99994,-800.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s7913812" d="M -640.72095,-805.39075 -629.99994,-800.0 -626.5098,-811.48126 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+</g>
+<g id="la210464839">
+<path id="s210464839" d="M -690.0,-940.0 -690.0,220.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s155851005" d="M -697.7306,210.8219 -690.0,220.0 -682.2694,210.8219 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+</g>
+<g id="la37600556">
+<path id="s37600556" d="M -840.0,530.0 -1000.0,530.0 -1000.0,440.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s148367858" d="M -992.2694,449.1781 -1000.0,440.0 -1007.7306,449.1781 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+</g>
+<g id="la185600021">
+<path id="s185600021" d="M -689.99994,-1100.0 -690.0,-1040.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s6457411" d="M -697.7306,-1049.1781 -690.0,-1040.0 -682.26935,-1049.1781 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+</g>
+<g id="la94875413">
+<path id="s94875413" d="M -690.0,-1700.0 -689.99994,-1200.0 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)" stroke-dasharray="7.0 7.0"/>
+<path id="s105553600" d="M -697.7305,-1209.1781 -689.99994,-1200.0 -682.26935,-1209.1781 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+</g>
+<g id="la251404842">
+<path id="s251404842" d="M -690.0,-1700.0 -657.07086,-1637.071 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+<path id="s44320761" d="M -668.17566,-1641.6189 -657.07086,-1637.071 -654.4766,-1648.7872 " fill="none" stroke-width="2.0" stroke="rgb(0,0,0)"/>
+</g>
+<g id="s24556350">
+<polygon id="s24556350" points="814.0,1350.0 1014.0,1350.0 1014.0,1400.0 814.0,1400.0 " fill="url(#poweredby_logo)"/>
+</g>
+</svg>
