@@ -48,6 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business Entities\Bio.cs" />
+    <Compile Include="Business Entities\Entity_Identity.cs" />
+    <Compile Include="Business Entities\Exercise.cs" />
+    <Compile Include="Business Entities\ExercisseDay.cs" />
+    <Compile Include="Business Entities\Plan.cs" />
+    <Compile Include="Business Entities\Profile.cs" />
+    <Compile Include="Business Entities\Routine.cs" />
+    <Compile Include="Business Entities\Set.cs" />
+    <Compile Include="Business Entities\Stats.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,7 +88,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business Entities\" />
     <Folder Include="Data Access\" />
     <Folder Include="Data\" />
     <Folder Include="Misc\" />
