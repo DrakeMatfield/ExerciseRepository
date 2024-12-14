@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business Entities\Bio.cs" />
+    <Compile Include="Business Entities\Business_Logic.cs" />
     <Compile Include="Business Entities\Entity_Identity.cs" />
     <Compile Include="Business Entities\Exercise.cs" />
     <Compile Include="Business Entities\ExercisseDay.cs" />
