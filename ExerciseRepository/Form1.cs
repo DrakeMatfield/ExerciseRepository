@@ -6,12 +6,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using ExerciseRepository.Business_Entities;
+using ExerciseRepository.Data;
 
 namespace ExerciseRepository
 {
     public partial class Form1 : Form
     {
         ConsoleForm console;
+        Bio bio;
+
         public Form1()
         {
             InitializeComponent();
@@ -62,6 +66,11 @@ This about is use as a placeholder as the itnial  Master.";
         {
             e.Cancel = true;
             console.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            bio = TestData.CreateTestBio();  
         }
     }
 }

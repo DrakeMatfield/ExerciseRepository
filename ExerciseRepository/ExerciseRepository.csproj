@@ -64,6 +64,7 @@
     <Compile Include="Data Access\ExerciseRepositoryDataObject.cs" />
     <Compile Include="Data Access\FileRepository.cs" />
     <Compile Include="Data Access\IRepository.cs" />
+    <Compile Include="Data\TestData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,7 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
     <Folder Include="Misc\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
