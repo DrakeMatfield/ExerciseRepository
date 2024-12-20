@@ -11,6 +11,7 @@ namespace ExerciseRepository
 {
     public partial class Form1 : Form
     {
+        ConsoleForm console;
         public Form1()
         {
             InitializeComponent();
@@ -35,5 +36,32 @@ This about is use as a placeholder as the itnial  Master.";
         }
 
         #endregion
+
+        private void consoleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (console == null)
+            {
+                console = new ConsoleForm();
+                console.FormClosed += new FormClosedEventHandler(ConsoleFormClosed);
+                console.FormClosing += new FormClosingEventHandler(ConsoleFormClosing);
+                console.Show();
+            }
+            else
+            {
+                console.Show(); // Re-show the hidden form
+            }
+
+        }
+
+        private void ConsoleFormClosed(object sender, FormClosedEventArgs e)
+        {
+            console = null;
+        }
+
+        private void ConsoleFormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            console.Hide();
+        }
     }
 }

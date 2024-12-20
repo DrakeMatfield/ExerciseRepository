@@ -58,6 +58,9 @@
     <Compile Include="Business Entities\Routine.cs" />
     <Compile Include="Business Entities\Set.cs" />
     <Compile Include="Business Entities\Stats.cs" />
+    <Compile Include="ConsoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Data Access\ExerciseRepositoryDataObject.cs" />
     <Compile Include="Data Access\FileRepository.cs" />
     <Compile Include="Data Access\IRepository.cs" />
