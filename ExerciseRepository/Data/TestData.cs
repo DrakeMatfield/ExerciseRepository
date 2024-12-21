@@ -58,17 +58,17 @@ namespace ExerciseRepository.Data
                                                         Name = "Set 1",
                                                         Description = "Warm-up",
                                                         Number = 1,
-                                                        Weight = 0,
-                                                        Reps = 0
+                                                        Weight = 135,
+                                                        Reps = 10
                                                     },
                                                     new Set
                                                     {
                                                         id = Guid.NewGuid(),
                                                         Name = "Set 2",
                                                         Description = "Main run",
-                                                        Number = 1,
-                                                        Weight = 0,
-                                                        Reps = 0
+                                                        Number = 2,
+                                                        Weight = 255,
+                                                        Reps = 5
                                                     }
                                                 }
                                             }

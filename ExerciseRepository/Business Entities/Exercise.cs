@@ -16,5 +16,12 @@ namespace ExerciseRepository.Business_Entities
         public void RemoveSet(Set s)
         { }
 
+        public override string ToString()
+        {
+            string setsInfo = string.Join(",", Sets.ConvertAll(set => set.ToString()).ToArray());
+           
+            return string.Format("{0}\r\n[Duration: {1}\r\n^Sets:\r\n[{2}]]", base.ToString(), Duration, setsInfo).Replace(",","\r\n^");
+        }
+
     }
 }

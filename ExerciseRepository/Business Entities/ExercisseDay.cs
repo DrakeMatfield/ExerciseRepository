@@ -15,5 +15,11 @@ namespace ExerciseRepository.Business_Entities
 
         public void RemoveExercise(Exercise e)
         { }
+
+        public override string ToString()
+        {
+            string exercisesInfo = string.Join(", ", Exrcises.ConvertAll(exercise => exercise.ToString()).ToArray());
+            return string.Format("{0} - Date: {1}\r\n[Exercises: {2}]", base.ToString(), Date.ToString("MM-dd-yyyy"), exercisesInfo);
+        }
     }
 }

@@ -64,15 +64,21 @@
     <Compile Include="Data Access\ExerciseRepositoryDataObject.cs" />
     <Compile Include="Data Access\FileRepository.cs" />
     <Compile Include="Data Access\IRepository.cs" />
-    <Compile Include="Data\TestData.cs" />
+    <Compile Include="Data\TestData.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper Functions\Printsouts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConsoleForm.resx">
+      <DependentUpon>ConsoleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

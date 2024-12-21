@@ -16,6 +16,10 @@ namespace ExerciseRepository.Business_Entities
         public void RemoveRoutine(Routine r)
         { }
 
-
+        public override string ToString()
+        {
+            string routinesInfo = string.Join(", ", Routines.ConvertAll(routine => routine.ToString()).ToArray());
+            return string.Format("{0}\r\n[Routines: {1}]", base.ToString(), routinesInfo);
+        }
     }
 }

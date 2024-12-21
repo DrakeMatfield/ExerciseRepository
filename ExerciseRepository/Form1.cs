@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using ExerciseRepository.Business_Entities;
 using ExerciseRepository.Data;
+using ExerciseRepository.Helper_Functions;
 
 namespace ExerciseRepository
 {
@@ -70,7 +71,17 @@ This about is use as a placeholder as the itnial  Master.";
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bio = TestData.CreateTestBio();  
+            bio = TestData.CreateTestBio();
+
+            // Get the bio details as a string
+            string bioDetails = Printsouts.GetBioDetailsAsString(bio);
+
+            if (console == null)
+            {
+                consoleToolStripMenuItem_Click(this, EventArgs.Empty);
+            }
+
+            console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
         }
     }
 }

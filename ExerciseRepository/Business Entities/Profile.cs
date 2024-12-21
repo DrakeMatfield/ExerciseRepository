@@ -14,5 +14,11 @@ namespace ExerciseRepository.Business_Entities
 
         public void RemovePlan(Plan p)
         { }
+
+        public override string ToString()
+        {
+            string plansInfo = string.Join(", ", Plans.ConvertAll(plan => plan.ToString()).ToArray());
+            return string.Format("{0}\r\n[Plans: {1}", base.ToString(), plansInfo);
+        }
     }
 }

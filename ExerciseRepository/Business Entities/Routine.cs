@@ -14,5 +14,13 @@ namespace ExerciseRepository.Business_Entities
 
         public void RemoveDay(ExercisseDay d)
         { }
+
+
+
+        public override string ToString()
+        {
+            string daysInfo = string.Join(", ", Days.ConvertAll(day => day.ToString()).ToArray());
+            return string.Format("{0}\r\n[Days: {1}]", base.ToString(), daysInfo);
+        }
     }
 }

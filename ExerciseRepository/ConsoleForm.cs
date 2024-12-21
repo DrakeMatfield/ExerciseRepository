@@ -22,32 +22,65 @@ namespace ExerciseRepository
 
         private void InitializeComponent()
         {
-            this.textBoxConsole = new TextBox();
-            this.menuStrip = new MenuStrip();
-            this.fileMenu = new ToolStripMenuItem();
-            this.propertiesMenuItem = new ToolStripMenuItem();
-
-            // TextBox settings
-            this.textBoxConsole.Dock = DockStyle.Fill;
+            this.textBoxConsole = new System.Windows.Forms.TextBox();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.propertiesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // textBoxConsole
+            // 
+            this.textBoxConsole.BackColor = System.Drawing.Color.Black;
+            this.textBoxConsole.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxConsole.ForeColor = System.Drawing.Color.Green;
+            this.textBoxConsole.Location = new System.Drawing.Point(0, 24);
             this.textBoxConsole.Multiline = true;
-            this.textBoxConsole.ScrollBars = ScrollBars.Vertical;
-
-            // MenuStrip settings
-            this.menuStrip.Items.AddRange(new ToolStripItem[] { this.fileMenu });
-
-            // File menu settings
-            this.fileMenu.DropDownItems.AddRange(new ToolStripItem[] { this.propertiesMenuItem });
+            this.textBoxConsole.Name = "textBoxConsole";
+            this.textBoxConsole.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxConsole.Size = new System.Drawing.Size(284, 237);
+            this.textBoxConsole.TabIndex = 0;
+            this.textBoxConsole.AcceptsTab = true;
+            // 
+            // menuStrip
+            // 
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileMenu});
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip.TabIndex = 1;
+            // 
+            // fileMenu
+            // 
+            this.fileMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.propertiesMenuItem});
+            this.fileMenu.Name = "fileMenu";
+            this.fileMenu.Size = new System.Drawing.Size(37, 20);
             this.fileMenu.Text = "File";
-
-            // Properties menu item settings
+            // 
+            // propertiesMenuItem
+            // 
+            this.propertiesMenuItem.Name = "propertiesMenuItem";
+            this.propertiesMenuItem.Size = new System.Drawing.Size(127, 22);
             this.propertiesMenuItem.Text = "Properties";
-            this.propertiesMenuItem.Click += new EventHandler(this.PropertiesMenuItem_Click);
-
-            // MainForm settings
+            this.propertiesMenuItem.Click += new System.EventHandler(this.PropertiesMenuItem_Click);
+            // 
+            // ConsoleForm
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.WindowState = FormWindowState.Maximized;
             this.Controls.Add(this.textBoxConsole);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
+            this.Name = "ConsoleForm";
             this.Text = "Console Application";
+            this.Load += new System.EventHandler(this.ConsoleForm_Load);
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         private void PropertiesMenuItem_Click(object sender, EventArgs e)
@@ -79,6 +112,11 @@ namespace ExerciseRepository
             {
                 this.textBoxConsole.ForeColor = textColor;
             }
+        }
+
+        private void ConsoleForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
