@@ -18,8 +18,8 @@ namespace ExerciseRepository.Business_Entities
 
         public override string ToString()
         {
-            string routinesInfo = string.Join(", ", Routines.ConvertAll(routine => routine.ToString()).ToArray());
-            return string.Format("{0}\r\n[Routines: {1}]", base.ToString(), routinesInfo);
+            string routinesInfo = string.Join(",", Routines.ConvertAll(routine => routine.ToString()).ToArray());
+            return string.Format("{0}\r\n[Routines: {1}]", base.ToString(), routinesInfo).Replace(",", "\r\n^");
         }
     }
 }

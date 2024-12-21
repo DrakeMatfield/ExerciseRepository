@@ -19,7 +19,10 @@ namespace ExerciseRepository.Business_Entities
         public override string ToString()
         {
             string setsInfo = string.Join(",", Sets.ConvertAll(set => set.ToString()).ToArray());
-           
+            if (string.IsNullOrEmpty(setsInfo))
+            {
+                setsInfo = "No Sets are listed";
+            }
             return string.Format("{0}\r\n[Duration: {1}\r\n^Sets:\r\n[{2}]]", base.ToString(), Duration, setsInfo).Replace(",","\r\n^");
         }
 

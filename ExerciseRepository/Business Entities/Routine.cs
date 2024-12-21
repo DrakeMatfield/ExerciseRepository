@@ -19,8 +19,12 @@ namespace ExerciseRepository.Business_Entities
 
         public override string ToString()
         {
-            string daysInfo = string.Join(", ", Days.ConvertAll(day => day.ToString()).ToArray());
-            return string.Format("{0}\r\n[Days: {1}]", base.ToString(), daysInfo);
+            string daysInfo = string.Join(",", Days.ConvertAll(day => day.ToString()).ToArray());
+            if (string.IsNullOrEmpty(daysInfo))
+            {
+                daysInfo = "no days are listed";
+            }
+            return string.Format("{0}\r\n[Days: {1}]", base.ToString(), daysInfo).Replace(",", "\r\n^");
         }
     }
 }

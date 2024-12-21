@@ -18,7 +18,11 @@ namespace ExerciseRepository.Business_Entities
 
         public override string ToString()
         {
-            string exercisesInfo = string.Join(", ", Exrcises.ConvertAll(exercise => exercise.ToString()).ToArray());
+            string exercisesInfo = string.Join(",", Exrcises.ConvertAll(exercise => exercise.ToString()).ToArray());
+            if (string.IsNullOrEmpty(exercisesInfo))
+            {
+                exercisesInfo = "No exercise are listed.";
+            }
             return string.Format("{0} - Date: {1}\r\n[Exercises: {2}]", base.ToString(), Date.ToString("MM-dd-yyyy"), exercisesInfo);
         }
     }
