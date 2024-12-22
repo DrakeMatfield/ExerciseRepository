@@ -71,7 +71,7 @@ This about is use as a placeholder as the itnial  Master.";
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bio = TestData.CreateDrakeBio();
+            //bio = TestData.CreateDrakeBio();
 
             // Get the bio details as a string
             //string bioDetails = Printsouts.GetBioDetailsAsString(bio);
@@ -81,7 +81,7 @@ This about is use as a placeholder as the itnial  Master.";
                 consoleToolStripMenuItem_Click(this, EventArgs.Empty);
             }
 
-            console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
+            //console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
         }
 
         private void btnTestSave_Click(object sender, EventArgs e)
@@ -97,6 +97,19 @@ This about is use as a placeholder as the itnial  Master.";
 
                 Business_Logic.SaveBio(filename, bio);
                 MessageBox.Show("Bio saved successfully!");
+            }
+        }
+
+        private void btnOpenBio_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "er Files (.er)|*.er|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filename = this.openFileDialog1.FileName;
+                bio = Business_Logic.OpenBio(filename);
+                console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
             }
         }
 
