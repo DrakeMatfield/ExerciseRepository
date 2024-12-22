@@ -83,5 +83,23 @@ This about is use as a placeholder as the itnial  Master.";
 
             console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
         }
+
+        private void btnTestSave_Click(object sender, EventArgs e)
+        {
+
+            saveFileDialog1.Filter = "er files (*.er)|*.er|All files (*.*)|*.*";
+            saveFileDialog1.RestoreDirectory = true;
+            saveFileDialog1.DefaultExt = "er";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filename = saveFileDialog1.FileName;
+
+                Business_Logic.SaveBio(filename, bio);
+                MessageBox.Show("Bio saved successfully!");
+            }
+        }
+
+
     }
 }

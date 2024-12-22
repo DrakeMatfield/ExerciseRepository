@@ -5,6 +5,7 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
+    [Serializable]
     public class ExerciseDay : Entity_Identity
     {
         public DateTime Date { get; set; }

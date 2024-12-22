@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ExerciseRepository.Data_Access;
 
 namespace ExerciseRepository.Business_Entities
 {
     static class Business_Logic
     {
         // Save bio data
-        public static void SaveBio()
+        public static void SaveBio(string filePath, Bio bio)
         {
-            // Implementation here
+            ExerciseRepositoryDataObject data = new ExerciseRepositoryDataObject(filePath,bio);
+
+            IRepository r = Repository.Get_DataAccess(DataAccess_Type.FILE);
+            r.Save(data);
         }
 
         // Create new bio
@@ -20,9 +24,11 @@ namespace ExerciseRepository.Business_Entities
         }
 
         // Open existing bio
-        public static void OpenBio()
+        public static Bio OpenBio(string filePath)
         {
-            // Implementation here
+            IRepository r = Repository.Get_DataAccess(DataAccess_Type.FILE);
+            ExerciseRepositoryDataObject data = r.Get(filePath);
+            return data.bio_data;
         }
 
         // Create new stats

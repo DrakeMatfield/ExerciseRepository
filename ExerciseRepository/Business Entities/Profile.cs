@@ -5,6 +5,7 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
+    [Serializable]
     public class Profile:Entity_Identity
     {
         public List<Plan> Plans;

@@ -5,11 +5,12 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
-   public class Stats
+    [Serializable]
+    public class Stats
     {
-       public override string ToString()
-       {
-           return "Stats: (details not provided)";
-       }
+        public override string ToString()
+        {
+            return "Stats: (details not provided)";
+        }
     }
 }

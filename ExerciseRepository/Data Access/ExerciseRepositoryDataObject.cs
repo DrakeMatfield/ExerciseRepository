@@ -11,7 +11,8 @@ namespace ExerciseRepository.Data_Access
         public string FileName { get; set; }
         public string FileNameWithoutEXT { get; set; } // New property including path without extension
 
-        Bio data;
+        public Bio bio_data { get; set; }
+        //Bio data;
 
         public ExerciseRepositoryDataObject()
         {
@@ -22,7 +23,7 @@ namespace ExerciseRepository.Data_Access
             FileName = fileName;
             FileNameWithoutEXT = GetFileNameWithoutExtension(fileName); // Set the new property with path
 
-            this.data = _data;
+            this.bio_data = _data;
         }
 
         public ExerciseRepositoryDataObject(string fileName)

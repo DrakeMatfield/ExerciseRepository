@@ -5,6 +5,7 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
+    [Serializable]
     public class Entity_Identity
     {
         public Guid id { get; set; }

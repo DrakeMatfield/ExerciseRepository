@@ -5,10 +5,11 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
-    public class Routine: Entity_Identity
+    [Serializable]
+    public class Routine : Entity_Identity
     {
         public List<ExerciseDay> Days;
-        
+
         public void AddDay(ExerciseDay d)
         { }
 

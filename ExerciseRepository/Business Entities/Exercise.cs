@@ -5,6 +5,7 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
+    [Serializable]
     public class Exercise: Entity_Identity
     {
         public TimeSpan Duration { get; set; }
