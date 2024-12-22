@@ -71,10 +71,10 @@ This about is use as a placeholder as the itnial  Master.";
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bio = TestData.CreateTestBio();
+            bio = TestData.CreateDrakeBio();
 
             // Get the bio details as a string
-            string bioDetails = Printsouts.GetBioDetailsAsString(bio);
+            //string bioDetails = Printsouts.GetBioDetailsAsString(bio);
 
             if (console == null)
             {

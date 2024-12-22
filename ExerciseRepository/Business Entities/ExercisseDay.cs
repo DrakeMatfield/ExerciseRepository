@@ -5,12 +5,12 @@ using System.Text;
 
 namespace ExerciseRepository.Business_Entities
 {
-    public class ExercisseDay: Entity_Identity
+    public class ExerciseDay : Entity_Identity
     {
         public DateTime Date { get; set; }
-        public List<Exercise> Exrcises;
+        public List<Exercise> Exercises;
 
-        public void AddExercise (Exercise e)
+        public void AddExercise(Exercise e)
         { }
 
         public void RemoveExercise(Exercise e)
@@ -18,7 +18,7 @@ namespace ExerciseRepository.Business_Entities
 
         public override string ToString()
         {
-            string exercisesInfo = string.Join(",", Exrcises.ConvertAll(exercise => exercise.ToString()).ToArray());
+            string exercisesInfo = string.Join(",", Exercises.ConvertAll(exercise => exercise.ToString()).ToArray());
             if (string.IsNullOrEmpty(exercisesInfo))
             {
                 exercisesInfo = "No exercise are listed.";

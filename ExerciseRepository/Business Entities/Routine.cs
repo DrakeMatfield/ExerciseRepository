@@ -7,12 +7,12 @@ namespace ExerciseRepository.Business_Entities
 {
     public class Routine: Entity_Identity
     {
-        public List<ExercisseDay> Days;
+        public List<ExerciseDay> Days;
         
-        public void AddDay(ExercisseDay d)
+        public void AddDay(ExerciseDay d)
         { }
 
-        public void RemoveDay(ExercisseDay d)
+        public void RemoveDay(ExerciseDay d)
         { }
 
 

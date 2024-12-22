@@ -131,7 +131,7 @@ namespace ExerciseRepository.Helper_Functions
             return result;
         }
 
-        private static string GetExerciseDayDetails(ExercisseDay day, int indentLevel)
+        private static string GetExerciseDayDetails(ExerciseDay day, int indentLevel)
         {
             string indent = new string(' ', indentLevel * 2);
             string result = indent + string.Format("Day: {0} (ID: {1}): {2}\r\n{4}     Date: {3}\r\n", day.Name, day.id, day.Description, day.Date.ToString("yyyy-MM-dd"), indent);
@@ -139,7 +139,7 @@ namespace ExerciseRepository.Helper_Functions
             indentLevel += 1;
             indent = new string(' ', indentLevel * 2);
 
-            foreach (var exercise in day.Exrcises)
+            foreach (var exercise in day.Exercises)
             {
                 result += indent + "Exercise:\r\n" + GetExerciseDetails(exercise, indentLevel + 1);
             }
