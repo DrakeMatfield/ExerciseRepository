@@ -9,7 +9,7 @@ namespace ExerciseRepository.Business_Entities
     public class Exercise: Entity_Identity
     {
         public TimeSpan Duration { get; set; }
-        public List<Set> Sets;
+        public List<Set> Sets { get; set; }
 
         public void AddSet(Set s)
         { }

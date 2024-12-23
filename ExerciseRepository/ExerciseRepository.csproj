@@ -58,6 +58,7 @@
     <Compile Include="Business Entities\Routine.cs" />
     <Compile Include="Business Entities\Set.cs" />
     <Compile Include="Business Entities\Stats.cs" />
+    <Compile Include="Business Entities\WorkoutSession.cs" />
     <Compile Include="ConsoleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,10 +88,14 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="WorkoutSessionsForm.resx">
+      <DependentUpon>WorkoutSessionsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\ExerciseRepository.Business_Entities.Bio.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,6 +104,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WorkoutSessionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkoutSessionsForm.Designer.cs">
+      <DependentUpon>WorkoutSessionsForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

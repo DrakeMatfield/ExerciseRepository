@@ -8,13 +8,18 @@ namespace ExerciseRepository.Business_Entities
     [Serializable]
     public class Profile:Entity_Identity
     {
-        public List<Plan> Plans;
-
+        public List<Plan> Plans { get; set; }
+     
         public void AddPlan(Plan p)
         { }
 
         public void RemovePlan(Plan p)
         { }
+
+        public Profile()
+        {
+            this.Plans = new List<Plan>();
+        }
 
         public override string ToString()
         {

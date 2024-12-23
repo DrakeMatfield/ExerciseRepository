@@ -8,8 +8,12 @@ namespace ExerciseRepository.Business_Entities
     [Serializable]
     public class Plan : Entity_Identity
     {
-        public List<Routine> Routines;
+        public List<Routine> Routines { get; set; }
 
+        public Plan()
+        {
+            this.Routines = new List<Routine>();
+        }
 
         public void AddRoutine(Routine r)
         { }

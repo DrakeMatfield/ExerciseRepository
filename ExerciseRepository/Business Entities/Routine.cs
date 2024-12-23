@@ -8,7 +8,7 @@ namespace ExerciseRepository.Business_Entities
     [Serializable]
     public class Routine : Entity_Identity
     {
-        public List<ExerciseDay> Days;
+        public List<ExerciseDay> Days { get; set; }
 
         public void AddDay(ExerciseDay d)
         { }

@@ -14,6 +14,7 @@ namespace ExerciseRepository
 {
     public partial class Form1 : Form
     {
+        WorkoutSessionsForm workoutForm;
         ConsoleForm console;
         Bio bio;
 
@@ -24,7 +25,7 @@ namespace ExerciseRepository
 
 
         #region For the Master Branch Placeholding
-        
+
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string text = @"**Exercise Repository** is a Windows application designed to help users track and manage their workout routine progression.
@@ -82,6 +83,20 @@ This about is use as a placeholder as the itnial  Master.";
             }
 
             //console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
+
+            ////Guid exerciseDayId = bio.profile.Plans
+            ////                           .FirstOrDefault()
+            ////                           .Routines
+            ////                           .FirstOrDefault()
+            ////                           .Days
+            ////                           .FirstOrDefault(day => day.Name == "Day 3").id;
+
+            ////var workoutSession = Business_Logic.CreateWorkoutSession(bio, exerciseDayId);
+            //routinesDataGridView.DataMember = "profile.Plans[0].Routines";
+            //routineBindingSource.DataMember = "profile.Plans[0].Routines"; 
+
+            //this.bioBindingSource.DataSource = bio;
+            //this.routinesBindingSource.DataSource = bio.profile.Plans[0].Routines;
         }
 
         private void btnTestSave_Click(object sender, EventArgs e)
@@ -110,9 +125,63 @@ This about is use as a placeholder as the itnial  Master.";
                 string filename = this.openFileDialog1.FileName;
                 bio = Business_Logic.OpenBio(filename);
                 console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
+                this.bioBindingSource.DataSource = bio;
+                this.plansBindingSource.DataSource = bio.profile.Plans[0];
+                this.routinesBindingSource.DataSource = bio.profile.Plans[0].Routines;
+                this.bioBindingSource.ResetBindings(false);
+                Business_Logic.Predefine_ExerciseDays = Business_Logic.GetAllExerciseDays(bio);
+                // this.worksessionsBindingSource.DataSource = bio.worksessions;
+                // routinesDataGridView.DataMember = "bio.profile.Plans[0].Routines";
+
             }
         }
 
+        private void btnShowWorkotSessions_Click(object sender, EventArgs e)
+        {
+            if (workoutForm == null)
+            {
+                if (bio.worksessions == null)
+                {
+                    bio.worksessions = new List<WorkoutSession>();
+                }
+                workoutForm = new WorkoutSessionsForm(bio.worksessions);
+                this.workoutForm.FormClosed += new FormClosedEventHandler(workoutForm_FormClosed);
+                this.workoutForm.FormClosing += new FormClosingEventHandler(workoutForm_FormClosing);
+                this.workoutForm.Deactivate += new EventHandler(workoutForm_Deactivate);
+                this.workoutForm.Tag = bio;
+                this.workoutForm.Show();
+            }
+            else
+            {
+                this.workoutForm.Show();
+            }
+        }
+
+        void workoutForm_Deactivate(object sender, EventArgs e)
+        {
+            this.bioBindingSource.ResetBindings(false);
+
+        }
+
+        void workoutForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            workoutForm.Hide();
+        }
+
+        void workoutForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.workoutForm = null;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var z = this.bio.worksessions;
+            this.bioBindingSource.ResetBindings(false);
+            //this.worksessionsBindingSource.ResetBindings(false);
+        }
+
+     
 
     }
 }

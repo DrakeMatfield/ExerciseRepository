@@ -8,6 +8,25 @@ namespace ExerciseRepository.Business_Entities
 {
     static class Business_Logic
     {
+           private static List<ExerciseDay> exerciseDays;
+
+            public static List<ExerciseDay> Predefine_ExerciseDays
+            {
+                get
+                {
+                    if (exerciseDays == null)
+                    {
+                        exerciseDays = new List<ExerciseDay>();
+                    }
+                    return exerciseDays;
+                }
+                set
+                {
+                    exerciseDays = value;
+                }
+            }
+      
+
         // Save bio data
         public static void SaveBio(string filePath, Bio bio)
         {
@@ -162,6 +181,166 @@ namespace ExerciseRepository.Business_Entities
         {
             // Implementation here
         }
+
+        public static List<WorkoutSession> GeneratePredefinedWorkoutSessions(Bio bio)
+        {
+            var predefinedSessions = new List<WorkoutSession>();
+            var exerciseDays = GetAllExerciseDays(bio);
+
+            foreach (var exerciseDay in exerciseDays)
+            {
+                var workoutSession = CreateWorkoutSession(bio, exerciseDay.id);
+                predefinedSessions.Add(workoutSession);
+            }
+
+            return predefinedSessions;
+        }
+        public static List<ExerciseDay> GetAllExerciseDays(Bio bio)
+        {
+            var exerciseDays = new List<ExerciseDay>();
+
+            // Loop through all Plans, Routines, and Days to collect ExerciseDays
+            foreach (var plan in bio.profile.Plans)
+            {
+                foreach (var routine in plan.Routines)
+                {
+                    exerciseDays.AddRange(routine.Days);
+                }
+            }
+
+            return exerciseDays;
+        }
+
+        public static WorkoutSession CreateWorkoutSession_old_one(Bio bio, Guid exerciseDayId)
+        {
+            // Find the profile
+            var profile = bio.profile;
+
+            // Find the plan
+            var plan = profile.Plans.FirstOrDefault();
+
+            // Find the routine
+            var routine = plan.Routines.FirstOrDefault();
+
+            // Find the original exercise day
+            var originalExerciseDay = routine.Days.FirstOrDefault(day => day.id == exerciseDayId);
+
+            // Create a deep copy of the original exercise day but maintain the same IDs
+            var exerciseDayCopy = new ExerciseDay
+            {
+                id = originalExerciseDay.id, // Maintain the same ID
+                Name = originalExerciseDay.Name,
+                Description = originalExerciseDay.Description,
+                Date = DateTime.Now,
+                Exercises = originalExerciseDay.Exercises.Select(exercise => new Exercise
+                {
+                    id = exercise.id, // Maintain the same ID
+                    Name = exercise.Name,
+                    Description = exercise.Description,
+                    Duration = exercise.Duration,
+                    Sets = exercise.Sets.Select(set => new Set
+                    {
+                        id = set.id, // Maintain the same ID
+                        Name = set.Name,
+                        Description = set.Description,
+                        Number = set.Number,
+                        Weight = set.Weight,
+                        Reps = set.Reps
+                    }).ToList()
+                }).ToList()
+            };
+
+            // Create WorkoutSession with corresponding IDs
+            var workoutSession = new WorkoutSession
+            {
+                id = Guid.NewGuid(), // Assign a new ID for WorkoutSession
+                bioID = bio.id,
+                profieID = profile.id,
+                planID = plan.id,
+                routineID = routine.id,
+                orginalExerciseDayID = originalExerciseDay.id,
+                EDay = exerciseDayCopy
+            };
+
+            return workoutSession;
+        }
+
+        public static WorkoutSession CreateWorkoutSession(Bio bio, Guid exerciseDayId)
+        {
+            // Find the profile
+            var profile = bio.profile;
+
+            // Initialize variables for plan, routine, and exercise day
+            Plan plan = null;
+            Routine routine = null;
+            ExerciseDay originalExerciseDay = null;
+
+            // Find the original exercise day
+            foreach (var p in profile.Plans)
+            {
+                foreach (var r in p.Routines)
+                {
+                    originalExerciseDay = r.Days.FirstOrDefault(day => day.id == exerciseDayId);
+                    if (originalExerciseDay != null)
+                    {
+                        plan = p;
+                        routine = r;
+                        break;
+                    }
+                }
+                if (originalExerciseDay != null)
+                {
+                    break;
+                }
+            }
+
+            // Check if the exercise day was found
+            if (originalExerciseDay == null)
+            {
+                throw new Exception("The specified ExerciseDay was not found in any plan or routine.");
+            }
+
+            // Create a deep copy of the original exercise day but maintain the same IDs
+            var exerciseDayCopy = new ExerciseDay
+            {
+                id = originalExerciseDay.id, // Maintain the same ID
+                Name = originalExerciseDay.Name,
+                Description = originalExerciseDay.Description,
+                Date = DateTime.Now,
+                Exercises = originalExerciseDay.Exercises.Select(exercise => new Exercise
+                {
+                    id = exercise.id, // Maintain the same ID
+                    Name = exercise.Name,
+                    Description = exercise.Description,
+                    Duration = exercise.Duration,
+                    Sets = exercise.Sets.Select(set => new Set
+                    {
+                        id = set.id, // Maintain the same ID
+                        Name = set.Name,
+                        Description = set.Description,
+                        Number = set.Number,
+                        Weight = set.Weight,
+                        Reps = set.Reps
+                    }).ToList()
+                }).ToList()
+            };
+
+            // Create WorkoutSession with corresponding IDs
+            var workoutSession = new WorkoutSession
+            {
+                id = Guid.NewGuid(), // Assign a new ID for WorkoutSession
+                bioID = bio.id,
+                profieID = profile.id,
+                planID = plan.id,
+                routineID = routine.id,
+                orginalExerciseDayID = originalExerciseDay.id,
+                EDay = exerciseDayCopy,
+                Name = originalExerciseDay.Name + " - " + DateTime.Now.ToShortDateString()
+            };
+
+            return workoutSession;
+        }
+
     }
 
 }
