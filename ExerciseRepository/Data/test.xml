@@ -1,0 +1,4930 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<bio id="b75455f1-63be-4ac9-932f-d2b61888c255" name="Drake Matfield">
+  <profile>
+    <entity>
+      <id>2880624b-f0c2-4828-bf2b-bce9ca706c06</id>
+      <name>Drake's Profile</name>
+      <description>Personal fitness profile</description>
+    </entity>
+    <plans>
+      <plan>
+        <entity>
+          <id>818bff41-ba9a-49cc-960e-399c51c964f4</id>
+          <name>Fitness Plan 1</name>
+          <description>General fitness plan</description>
+        </entity>
+        <routines>
+          <routine>
+            <entity>
+              <id>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</id>
+              <name>Weightlifting Routine</name>
+              <description>3-Day cycle workout routine</description>
+            </entity>
+            <exercise_days>
+              <exercise_day>
+                <entity>
+                  <id>f68979c0-a71d-406d-86a0-06fe3d7aa987</id>
+                  <name>Day 1</name>
+                  <description>Chest and Back</description>
+                </entity>
+                <date>2024-12-22T19:20:28.0163248-06:00</date>
+                <exercises>
+                  <exercise>
+                    <entity>
+                      <id>15ebc55a-9c83-4c4c-bec1-3d1f22bd18a3</id>
+                      <name>Bench Press</name>
+                      <description>Lift bar above chest</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>acc7ce53-b0da-40e0-9aae-a40d04a63b90</id>
+                          <name>Set 1</name>
+                          <description>Warm-up</description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>135</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>d7106b9f-5582-4bf3-aa5b-888982cdf93f</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>185</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>2b14f1a3-370e-40ff-a7aa-d50f90d75fb3</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>3</reps>
+                        <weight>225</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>6319842b-9d33-4488-b6e1-3bed7911229f</id>
+                      <name>Incline Press</name>
+                      <description>Lift bar at an incline</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>295e1a5e-6a2a-4308-a0f1-2feda1544344</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>135</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>e61621d4-6f64-46d2-826d-968ba3a80303</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>6</reps>
+                        <weight>155</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>aa76af55-31c5-41cf-8a93-1d72626834a2</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>4</reps>
+                        <weight>165</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>b8a3cb93-7fc4-4e05-9f2f-3b69b0d32f20</id>
+                      <name>Flys</name>
+                      <description>Dumbbell flys</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>70ea0561-fbe3-4651-a874-3db77c730ff6</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>70</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>7d51993b-7ea4-42e2-8299-e508eba11be7</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>30</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>8a44ae4b-90f4-4515-bcf8-251786cc6884</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>15</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>4b98c83c-ebe4-49f6-8c59-aa261ac0a416</id>
+                      <name>Pull Down</name>
+                      <description>Lat pulldowns</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>ccb53940-7eb6-4ed6-8914-059f7fc525fa</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>110</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>26444d4a-fa1c-46f4-ade5-2a7e931bf9ae</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>110</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>7763c076-c01c-40fa-b62e-10fd8d0af5b5</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>121</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>34db9ec3-944f-4858-97f0-c47de679cc41</id>
+                      <name>Pull Back</name>
+                      <description>Seated rows</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>33e1510c-200b-44d8-8841-8cd521c432e8</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>110</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>17a96797-8be1-4815-81eb-78886306c6a5</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>121</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>3c69b65e-6915-43d2-ae01-acadd3e9c099</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>6</reps>
+                        <weight>143</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                </exercises>
+              </exercise_day>
+              <exercise_day>
+                <entity>
+                  <id>3019c245-57a5-4c5d-a20d-9ee56098130a</id>
+                  <name>Day 2</name>
+                  <description>Shoulders and Arms</description>
+                </entity>
+                <date>2024-12-22T19:20:28.019329-06:00</date>
+                <exercises>
+                  <exercise>
+                    <entity>
+                      <id>230d67dd-16ab-403a-9fc2-abcdf330c449</id>
+                      <name>Shoulder Press</name>
+                      <description>Lift bar above head</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>c1323cee-5e03-41c3-8549-0f4c7f5fbd38</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>115</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>58da0901-4053-43a1-b7e8-8ee0d8ad5047</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>5</reps>
+                        <weight>115</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>0ea3267f-5988-418f-8cd2-74b850af4c53</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>5</reps>
+                        <weight>115</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>c585bb6d-7414-44ff-802f-e9e43a6342c4</id>
+                      <name>Shoulder Flap</name>
+                      <description>Dumbbell lateral raises</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>f7a496c2-2a24-4d89-8ae6-5bad56610251</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>35</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>1b57e163-e254-4eb4-978b-c03a079d43d3</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>35</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>f731a861-896c-4316-a9b0-acc9b33bdc1b</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>35</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>6c2b3a68-8326-4bc0-950b-661fcec8f539</id>
+                      <name>Traps</name>
+                      <description>Shrugs</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>1d6a018a-90fd-4671-b676-d7dadd81b858</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>70</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>019758dd-5e74-4e2a-9e9c-6e8abf9719f2</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>70</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>32e76f37-482c-4a9d-a624-4a15278a56ae</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>70</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>b8f65d7e-beb8-43b0-ac5e-4f1f7d222f9d</id>
+                      <name>Triceps</name>
+                      <description>Tricep pushdowns</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>3cd09e1b-c462-41de-9e3e-91d6fe85edf8</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>11</reps>
+                        <weight>60</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>ccc654b5-4dbf-402e-adba-abf8f8ec8129</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>11</reps>
+                        <weight>66</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>3eb7daca-c127-433c-b6ef-94e63188a6e3</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>7</reps>
+                        <weight>71</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>52aae584-e7a1-41f3-b41d-4a8cd73ffee8</id>
+                      <name>Biceps</name>
+                      <description>Bicep curls</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>2a7b0548-c51d-4534-afdc-f2c2aab9edfa</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>38</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>1afaafcb-58fb-4ea7-9d47-7e1bc41a4bc8</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>44</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>fd83149d-96e9-4040-b3ed-2a0a327c0078</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>49</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                </exercises>
+              </exercise_day>
+              <exercise_day>
+                <entity>
+                  <id>f891f3eb-58d6-445a-95f2-69bf5946e2d8</id>
+                  <name>Day 3</name>
+                  <description>Leg Day</description>
+                </entity>
+                <date>2024-12-22T19:20:28.019329-06:00</date>
+                <exercises>
+                  <exercise>
+                    <entity>
+                      <id>cc92299a-93a7-48dc-865f-2abae46e08ac</id>
+                      <name>Squats</name>
+                      <description>Barbell squats</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>a6525f57-a37d-41be-ae00-b3e77baec84d</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>45</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>61f1926b-1bd6-4316-a3fe-df66889c5f9b</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>135</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>d242683c-fdc3-415e-b496-b709955d353d</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>5</reps>
+                        <weight>255</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>45e1e22e-ee6c-4fa6-8b76-1e7a380059c2</id>
+                      <name>Hack Squats</name>
+                      <description>Hack squats</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>9103ba6f-1c22-4566-8734-a1b233e39ba1</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>225</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>82d542aa-1bbe-4671-a5d0-ff9c1595ffd9</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>315</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>95107502-b9d8-43fb-b414-a0d71fc8e80d</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>11</reps>
+                        <weight>475</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>e2a46e80-8a11-4ee7-b8ac-867bc31e5b53</id>
+                      <name>Hamstrings</name>
+                      <description>Hamstring curls</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>5518766e-9fd9-48e5-ae3f-81a06f3fbaac</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>80</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>6e5c2d8b-4ac2-409c-959f-ef3f05ccab46</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>90</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>cc737e6b-9d24-4c53-98e8-9efd7884a6c0</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>7</reps>
+                        <weight>100</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>afd3dd2c-cc71-41cc-bf25-0387ae496ebb</id>
+                      <name>Thighs</name>
+                      <description>Thigh extensions</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>5fd8a9da-8406-4c5f-b6a3-273a0b510204</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>130</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>59dbc758-96db-47da-aea2-27852f89d66b</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>130</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>c3ece6d7-ee8f-4f27-8b97-b6cbc57c2fed</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>140</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>982e4b6f-f24f-448f-a1fc-03cbe353a5b6</id>
+                      <name>Calves</name>
+                      <description>Calf raises</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>f9fb524c-0c5d-4dc6-a17b-c2cc6fde6b7c</id>
+                          <name>Set 1</name>
+                          <description></description>
+                        </entity>
+                        <number>1</number>
+                        <reps>10</reps>
+                        <weight>250</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>d19d2962-8041-4e27-8155-119b70dea318</id>
+                          <name>Set 2</name>
+                          <description></description>
+                        </entity>
+                        <number>2</number>
+                        <reps>10</reps>
+                        <weight>250</weight>
+                      </set>
+                      <set>
+                        <entity>
+                          <id>d9a761ea-64eb-4e2a-94a1-a06183f8698c</id>
+                          <name>Set 3</name>
+                          <description></description>
+                        </entity>
+                        <number>3</number>
+                        <reps>10</reps>
+                        <weight>250</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                </exercises>
+              </exercise_day>
+            </exercise_days>
+          </routine>
+          <routine>
+            <entity>
+              <id>b0ffad48-a645-4623-a389-804df6fc6af8</id>
+              <name>Daily Routine</name>
+              <description>Done Everyday</description>
+            </entity>
+            <exercise_days>
+              <exercise_day>
+                <entity>
+                  <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+                  <name>Daily Routine</name>
+                  <description>every day</description>
+                </entity>
+                <date>2024-12-22T19:20:28.0203303-06:00</date>
+                <exercises>
+                  <exercise>
+                    <entity>
+                      <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                      <name>Push ups</name>
+                      <description>Do as many push ups as possiable in one set</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                          <name>Set 1</name>
+                          <description>Max Out</description>
+                        </entity>
+                        <number>1</number>
+                        <reps>40</reps>
+                        <weight>0</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                      <name>Squats ups</name>
+                      <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                          <name>Set 1</name>
+                          <description>Max Out</description>
+                        </entity>
+                        <number>1</number>
+                        <reps>50</reps>
+                        <weight>0</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                      <name>Lunges</name>
+                      <description>Lunges with no weights</description>
+                    </entity>
+                    <duration>PT0S</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                          <name>Set 1</name>
+                          <description>Max Out</description>
+                        </entity>
+                        <number>1</number>
+                        <reps>50</reps>
+                        <weight>0</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                      <name>3-mile jog</name>
+                      <description>Jog 3 miles</description>
+                    </entity>
+                    <duration>PT30M</duration>
+                    <sets />
+                  </exercise>
+                  <exercise>
+                    <entity>
+                      <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                      <name>Stationary Cycle</name>
+                      <description>Stationary Cycle at the gym - 30 mins</description>
+                    </entity>
+                    <duration>PT30M</duration>
+                    <sets>
+                      <set>
+                        <entity>
+                          <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                          <name>30 mins</name>
+                          <description>enter the number of miles in weight for now</description>
+                        </entity>
+                        <number>1</number>
+                        <reps>1</reps>
+                        <weight>7</weight>
+                      </set>
+                    </sets>
+                  </exercise>
+                </exercises>
+              </exercise_day>
+            </exercise_days>
+          </routine>
+        </routines>
+      </plan>
+    </plans>
+  </profile>
+  <stats />
+  <workout_sessions>
+    <workout_session>
+      <entity>
+        <id>d6e94afd-266f-41e9-9b3a-eefcf01af6cd</id>
+        <name>Day 1 - 12/8/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f68979c0-a71d-406d-86a0-06fe3d7aa987</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f68979c0-a71d-406d-86a0-06fe3d7aa987</id>
+            <name>Day 1</name>
+            <description>Chest and Back</description>
+          </entity>
+          <date>2024-12-08T13:41:01</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>15ebc55a-9c83-4c4c-bec1-3d1f22bd18a3</id>
+                <name>Bench Press</name>
+                <description>Lift bar above chest</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>acc7ce53-b0da-40e0-9aae-a40d04a63b90</id>
+                    <name>Set 1</name>
+                    <description>Warm-up</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d7106b9f-5582-4bf3-aa5b-888982cdf93f</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>8</reps>
+                  <weight>185</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>2b14f1a3-370e-40ff-a7aa-d50f90d75fb3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>1</reps>
+                  <weight>225</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6319842b-9d33-4488-b6e1-3bed7911229f</id>
+                <name>Incline Press</name>
+                <description>Lift bar at an incline</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>295e1a5e-6a2a-4308-a0f1-2feda1544344</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>e61621d4-6f64-46d2-826d-968ba3a80303</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>5</reps>
+                  <weight>155</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>aa76af55-31c5-41cf-8a93-1d72626834a2</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>3</reps>
+                  <weight>165</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8a3cb93-7fc4-4e05-9f2f-3b69b0d32f20</id>
+                <name>Flys</name>
+                <description>Dumbbell flys</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>70ea0561-fbe3-4651-a874-3db77c730ff6</id>
+                    <name>Set 1</name>
+                    <description>10.3.2</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>65</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7d51993b-7ea4-42e2-8299-e508eba11be7</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>25</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>8a44ae4b-90f4-4515-bcf8-251786cc6884</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>10</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>4b98c83c-ebe4-49f6-8c59-aa261ac0a416</id>
+                <name>Pull Down</name>
+                <description>Lat pulldowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>ccb53940-7eb6-4ed6-8914-059f7fc525fa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>80</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>26444d4a-fa1c-46f4-ade5-2a7e931bf9ae</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>80</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7763c076-c01c-40fa-b62e-10fd8d0af5b5</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>80</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>34db9ec3-944f-4858-97f0-c47de679cc41</id>
+                <name>Pull Back</name>
+                <description>Seated rows</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>33e1510c-200b-44d8-8841-8cd521c432e8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>99</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>17a96797-8be1-4815-81eb-78886306c6a5</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>99</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3c69b65e-6915-43d2-ae01-acadd3e9c099</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>99</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>409a0b9c-df7d-4a09-851c-9a2da0660467</id>
+        <name>Day 2 - 12/9/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>3019c245-57a5-4c5d-a20d-9ee56098130a</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>3019c245-57a5-4c5d-a20d-9ee56098130a</id>
+            <name>Day 2</name>
+            <description>Shoulders and Arms</description>
+          </entity>
+          <date>2024-12-09T13:43:27</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>230d67dd-16ab-403a-9fc2-abcdf330c449</id>
+                <name>Shoulder Press</name>
+                <description>Lift bar above head</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>c1323cee-5e03-41c3-8549-0f4c7f5fbd38</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>7</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>58da0901-4053-43a1-b7e8-8ee0d8ad5047</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>6</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>0ea3267f-5988-418f-8cd2-74b850af4c53</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>5</reps>
+                  <weight>115</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>c585bb6d-7414-44ff-802f-e9e43a6342c4</id>
+                <name>Shoulder Flap</name>
+                <description>Dumbbell lateral raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f7a496c2-2a24-4d89-8ae6-5bad56610251</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1b57e163-e254-4eb4-978b-c03a079d43d3</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>3</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>f731a861-896c-4316-a9b0-acc9b33bdc1b</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>3</reps>
+                  <weight>35</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6c2b3a68-8326-4bc0-950b-661fcec8f539</id>
+                <name>Traps</name>
+                <description>Shrugs</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>1d6a018a-90fd-4671-b676-d7dadd81b858</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>019758dd-5e74-4e2a-9e9c-6e8abf9719f2</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>32e76f37-482c-4a9d-a624-4a15278a56ae</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8f65d7e-beb8-43b0-ac5e-4f1f7d222f9d</id>
+                <name>Triceps</name>
+                <description>Tricep pushdowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3cd09e1b-c462-41de-9e3e-91d6fe85edf8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>60</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>ccc654b5-4dbf-402e-adba-abf8f8ec8129</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>60</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3eb7daca-c127-433c-b6ef-94e63188a6e3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>60</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>52aae584-e7a1-41f3-b41d-4a8cd73ffee8</id>
+                <name>Biceps</name>
+                <description>Bicep curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>2a7b0548-c51d-4534-afdc-f2c2aab9edfa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>38</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1afaafcb-58fb-4ea7-9d47-7e1bc41a4bc8</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>38</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>fd83149d-96e9-4040-b3ed-2a0a327c0078</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>38</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>8d0fd842-8dd3-4621-81bb-ef8e792fc769</id>
+        <name>Day 3 - 12/10/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f891f3eb-58d6-445a-95f2-69bf5946e2d8</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f891f3eb-58d6-445a-95f2-69bf5946e2d8</id>
+            <name>Day 3</name>
+            <description>Leg Day</description>
+          </entity>
+          <date>2024-12-10T13:43:32</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>cc92299a-93a7-48dc-865f-2abae46e08ac</id>
+                <name>Squats</name>
+                <description>Barbell squats</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>a6525f57-a37d-41be-ae00-b3e77baec84d</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>45</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>61f1926b-1bd6-4316-a3fe-df66889c5f9b</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d242683c-fdc3-415e-b496-b709955d353d</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>255</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>45e1e22e-ee6c-4fa6-8b76-1e7a380059c2</id>
+                <name>Hack Squats</name>
+                <description>Hack squats</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>9103ba6f-1c22-4566-8734-a1b233e39ba1</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>225</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>82d542aa-1bbe-4671-a5d0-ff9c1595ffd9</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>315</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>95107502-b9d8-43fb-b414-a0d71fc8e80d</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>405</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>e2a46e80-8a11-4ee7-b8ac-867bc31e5b53</id>
+                <name>Hamstrings</name>
+                <description>Hamstring curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>5518766e-9fd9-48e5-ae3f-81a06f3fbaac</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>80</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>6e5c2d8b-4ac2-409c-959f-ef3f05ccab46</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>90</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>cc737e6b-9d24-4c53-98e8-9efd7884a6c0</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>8</reps>
+                  <weight>90</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>afd3dd2c-cc71-41cc-bf25-0387ae496ebb</id>
+                <name>Thighs</name>
+                <description>Thigh extensions</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>5fd8a9da-8406-4c5f-b6a3-273a0b510204</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>59dbc758-96db-47da-aea2-27852f89d66b</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>c3ece6d7-ee8f-4f27-8b97-b6cbc57c2fed</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>982e4b6f-f24f-448f-a1fc-03cbe353a5b6</id>
+                <name>Calves</name>
+                <description>Calf raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f9fb524c-0c5d-4dc6-a17b-c2cc6fde6b7c</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>230</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d19d2962-8041-4e27-8155-119b70dea318</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>230</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d9a761ea-64eb-4e2a-94a1-a06183f8698c</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>230</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>80caa0ca-5c9a-4981-bc51-ff6b202ef099</id>
+        <name>Day 4 - 12/11/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f68979c0-a71d-406d-86a0-06fe3d7aa987</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f68979c0-a71d-406d-86a0-06fe3d7aa987</id>
+            <name>Day 1</name>
+            <description>Chest and Back</description>
+          </entity>
+          <date>2024-12-11T13:43:46</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>15ebc55a-9c83-4c4c-bec1-3d1f22bd18a3</id>
+                <name>Bench Press</name>
+                <description>Lift bar above chest</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>acc7ce53-b0da-40e0-9aae-a40d04a63b90</id>
+                    <name>Set 1</name>
+                    <description>Warm-up</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>12</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d7106b9f-5582-4bf3-aa5b-888982cdf93f</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>9</reps>
+                  <weight>185</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>2b14f1a3-370e-40ff-a7aa-d50f90d75fb3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>2</reps>
+                  <weight>225</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6319842b-9d33-4488-b6e1-3bed7911229f</id>
+                <name>Incline Press</name>
+                <description>Lift bar at an incline</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>295e1a5e-6a2a-4308-a0f1-2feda1544344</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>e61621d4-6f64-46d2-826d-968ba3a80303</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>6</reps>
+                  <weight>155</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>aa76af55-31c5-41cf-8a93-1d72626834a2</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>4</reps>
+                  <weight>165</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8a3cb93-7fc4-4e05-9f2f-3b69b0d32f20</id>
+                <name>Flys</name>
+                <description>Dumbbell flys</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>70ea0561-fbe3-4651-a874-3db77c730ff6</id>
+                    <name>Set 1</name>
+                    <description>10.3.3</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>65</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7d51993b-7ea4-42e2-8299-e508eba11be7</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>25</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>8a44ae4b-90f4-4515-bcf8-251786cc6884</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>10</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>4b98c83c-ebe4-49f6-8c59-aa261ac0a416</id>
+                <name>Pull Down</name>
+                <description>Lat pulldowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>ccb53940-7eb6-4ed6-8914-059f7fc525fa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>88</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>26444d4a-fa1c-46f4-ade5-2a7e931bf9ae</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>88</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7763c076-c01c-40fa-b62e-10fd8d0af5b5</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>88</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>34db9ec3-944f-4858-97f0-c47de679cc41</id>
+                <name>Pull Back</name>
+                <description>Seated rows</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>33e1510c-200b-44d8-8841-8cd521c432e8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>99</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>17a96797-8be1-4815-81eb-78886306c6a5</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3c69b65e-6915-43d2-ae01-acadd3e9c099</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>121</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>84006f3e-6fac-48a0-9717-d51e394a618d</id>
+        <name>Day 5 - 12/12/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>3019c245-57a5-4c5d-a20d-9ee56098130a</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>3019c245-57a5-4c5d-a20d-9ee56098130a</id>
+            <name>Day 2</name>
+            <description>Shoulders and Arms</description>
+          </entity>
+          <date>2024-12-12T13:43:52</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>230d67dd-16ab-403a-9fc2-abcdf330c449</id>
+                <name>Shoulder Press</name>
+                <description>Lift bar above head</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>c1323cee-5e03-41c3-8549-0f4c7f5fbd38</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>9</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>58da0901-4053-43a1-b7e8-8ee0d8ad5047</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>6</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>0ea3267f-5988-418f-8cd2-74b850af4c53</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>5</reps>
+                  <weight>115</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>c585bb6d-7414-44ff-802f-e9e43a6342c4</id>
+                <name>Shoulder Flap</name>
+                <description>Dumbbell lateral raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f7a496c2-2a24-4d89-8ae6-5bad56610251</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1b57e163-e254-4eb4-978b-c03a079d43d3</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>5</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>f731a861-896c-4316-a9b0-acc9b33bdc1b</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>5</reps>
+                  <weight>35</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6c2b3a68-8326-4bc0-950b-661fcec8f539</id>
+                <name>Traps</name>
+                <description>Shrugs</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>1d6a018a-90fd-4671-b676-d7dadd81b858</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>019758dd-5e74-4e2a-9e9c-6e8abf9719f2</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>32e76f37-482c-4a9d-a624-4a15278a56ae</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8f65d7e-beb8-43b0-ac5e-4f1f7d222f9d</id>
+                <name>Triceps</name>
+                <description>Tricep pushdowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3cd09e1b-c462-41de-9e3e-91d6fe85edf8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>60</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>ccc654b5-4dbf-402e-adba-abf8f8ec8129</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>66</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3eb7daca-c127-433c-b6ef-94e63188a6e3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>7</reps>
+                  <weight>71</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>52aae584-e7a1-41f3-b41d-4a8cd73ffee8</id>
+                <name>Biceps</name>
+                <description>Bicep curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>2a7b0548-c51d-4534-afdc-f2c2aab9edfa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>38</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1afaafcb-58fb-4ea7-9d47-7e1bc41a4bc8</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>44</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>fd83149d-96e9-4040-b3ed-2a0a327c0078</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>49</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>e0d650a7-88a3-4135-ada5-b3d4fb9880d1</id>
+        <name>Day 6 - 12/13/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f891f3eb-58d6-445a-95f2-69bf5946e2d8</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f891f3eb-58d6-445a-95f2-69bf5946e2d8</id>
+            <name>Day 3</name>
+            <description>Leg Day</description>
+          </entity>
+          <date>2024-12-13T13:43:58</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>cc92299a-93a7-48dc-865f-2abae46e08ac</id>
+                <name>Squats</name>
+                <description>Barbell squats</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>a6525f57-a37d-41be-ae00-b3e77baec84d</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>45</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>61f1926b-1bd6-4316-a3fe-df66889c5f9b</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d242683c-fdc3-415e-b496-b709955d353d</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>6</reps>
+                  <weight>245</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>45e1e22e-ee6c-4fa6-8b76-1e7a380059c2</id>
+                <name>Hack Squats</name>
+                <description>Hack squats</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>9103ba6f-1c22-4566-8734-a1b233e39ba1</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>225</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>82d542aa-1bbe-4671-a5d0-ff9c1595ffd9</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>315</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>95107502-b9d8-43fb-b414-a0d71fc8e80d</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>455</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>e2a46e80-8a11-4ee7-b8ac-867bc31e5b53</id>
+                <name>Hamstrings</name>
+                <description>Hamstring curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>5518766e-9fd9-48e5-ae3f-81a06f3fbaac</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>80</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>6e5c2d8b-4ac2-409c-959f-ef3f05ccab46</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>90</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>cc737e6b-9d24-4c53-98e8-9efd7884a6c0</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>90</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>afd3dd2c-cc71-41cc-bf25-0387ae496ebb</id>
+                <name>Thighs</name>
+                <description>Thigh extensions</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>5fd8a9da-8406-4c5f-b6a3-273a0b510204</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>59dbc758-96db-47da-aea2-27852f89d66b</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>c3ece6d7-ee8f-4f27-8b97-b6cbc57c2fed</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>982e4b6f-f24f-448f-a1fc-03cbe353a5b6</id>
+                <name>Calves</name>
+                <description>Calf raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f9fb524c-0c5d-4dc6-a17b-c2cc6fde6b7c</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>230</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d19d2962-8041-4e27-8155-119b70dea318</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>230</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d9a761ea-64eb-4e2a-94a1-a06183f8698c</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>230</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>1322557e-1ee7-4f76-9b72-e7f2231d550c</id>
+        <name>Day 7 - 12/14/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f68979c0-a71d-406d-86a0-06fe3d7aa987</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f68979c0-a71d-406d-86a0-06fe3d7aa987</id>
+            <name>Day 1</name>
+            <description>Chest and Back</description>
+          </entity>
+          <date>2024-12-14T13:44:13</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>15ebc55a-9c83-4c4c-bec1-3d1f22bd18a3</id>
+                <name>Bench Press</name>
+                <description>Lift bar above chest</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>acc7ce53-b0da-40e0-9aae-a40d04a63b90</id>
+                    <name>Set 1</name>
+                    <description>Warm-up</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d7106b9f-5582-4bf3-aa5b-888982cdf93f</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>9</reps>
+                  <weight>185</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>2b14f1a3-370e-40ff-a7aa-d50f90d75fb3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>2</reps>
+                  <weight>225</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6319842b-9d33-4488-b6e1-3bed7911229f</id>
+                <name>Incline Press</name>
+                <description>Lift bar at an incline</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>295e1a5e-6a2a-4308-a0f1-2feda1544344</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>e61621d4-6f64-46d2-826d-968ba3a80303</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>6</reps>
+                  <weight>155</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>aa76af55-31c5-41cf-8a93-1d72626834a2</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>4</reps>
+                  <weight>165</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8a3cb93-7fc4-4e05-9f2f-3b69b0d32f20</id>
+                <name>Flys</name>
+                <description>Dumbbell flys</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>70ea0561-fbe3-4651-a874-3db77c730ff6</id>
+                    <name>Set 1</name>
+                    <description>10.7.2</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7d51993b-7ea4-42e2-8299-e508eba11be7</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>30</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>8a44ae4b-90f4-4515-bcf8-251786cc6884</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>10</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>4b98c83c-ebe4-49f6-8c59-aa261ac0a416</id>
+                <name>Pull Down</name>
+                <description>Lat pulldowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>ccb53940-7eb6-4ed6-8914-059f7fc525fa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>26444d4a-fa1c-46f4-ade5-2a7e931bf9ae</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7763c076-c01c-40fa-b62e-10fd8d0af5b5</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>121</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>34db9ec3-944f-4858-97f0-c47de679cc41</id>
+                <name>Pull Back</name>
+                <description>Seated rows</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>33e1510c-200b-44d8-8841-8cd521c432e8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>17a96797-8be1-4815-81eb-78886306c6a5</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>121</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3c69b65e-6915-43d2-ae01-acadd3e9c099</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>6</reps>
+                  <weight>143</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>f6eb9294-5067-43ac-afce-2ee26342f8ad</id>
+        <name>Day 8 - 12/15/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>3019c245-57a5-4c5d-a20d-9ee56098130a</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>3019c245-57a5-4c5d-a20d-9ee56098130a</id>
+            <name>Day 2</name>
+            <description>Shoulders and Arms</description>
+          </entity>
+          <date>2024-12-15T13:44:18</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>230d67dd-16ab-403a-9fc2-abcdf330c449</id>
+                <name>Shoulder Press</name>
+                <description>Lift bar above head</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>c1323cee-5e03-41c3-8549-0f4c7f5fbd38</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>58da0901-4053-43a1-b7e8-8ee0d8ad5047</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>5</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>0ea3267f-5988-418f-8cd2-74b850af4c53</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>5</reps>
+                  <weight>115</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>c585bb6d-7414-44ff-802f-e9e43a6342c4</id>
+                <name>Shoulder Flap</name>
+                <description>Dumbbell lateral raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f7a496c2-2a24-4d89-8ae6-5bad56610251</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1b57e163-e254-4eb4-978b-c03a079d43d3</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>f731a861-896c-4316-a9b0-acc9b33bdc1b</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6c2b3a68-8326-4bc0-950b-661fcec8f539</id>
+                <name>Traps</name>
+                <description>Shrugs</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>1d6a018a-90fd-4671-b676-d7dadd81b858</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>019758dd-5e74-4e2a-9e9c-6e8abf9719f2</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>32e76f37-482c-4a9d-a624-4a15278a56ae</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8f65d7e-beb8-43b0-ac5e-4f1f7d222f9d</id>
+                <name>Triceps</name>
+                <description>Tricep pushdowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3cd09e1b-c462-41de-9e3e-91d6fe85edf8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>11</reps>
+                  <weight>60</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>ccc654b5-4dbf-402e-adba-abf8f8ec8129</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>11</reps>
+                  <weight>66</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3eb7daca-c127-433c-b6ef-94e63188a6e3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>7</reps>
+                  <weight>71</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>52aae584-e7a1-41f3-b41d-4a8cd73ffee8</id>
+                <name>Biceps</name>
+                <description>Bicep curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>2a7b0548-c51d-4534-afdc-f2c2aab9edfa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>38</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1afaafcb-58fb-4ea7-9d47-7e1bc41a4bc8</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>44</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>fd83149d-96e9-4040-b3ed-2a0a327c0078</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>49</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>c6bd9f22-978f-494c-8335-0f3de93d5bb3</id>
+        <name>Day 9 - 12/16/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f891f3eb-58d6-445a-95f2-69bf5946e2d8</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f891f3eb-58d6-445a-95f2-69bf5946e2d8</id>
+            <name>Day 3</name>
+            <description>Leg Day</description>
+          </entity>
+          <date>2024-12-16T13:44:23</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>cc92299a-93a7-48dc-865f-2abae46e08ac</id>
+                <name>Squats</name>
+                <description>Barbell squats</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>a6525f57-a37d-41be-ae00-b3e77baec84d</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>45</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>61f1926b-1bd6-4316-a3fe-df66889c5f9b</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d242683c-fdc3-415e-b496-b709955d353d</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>5</reps>
+                  <weight>255</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>45e1e22e-ee6c-4fa6-8b76-1e7a380059c2</id>
+                <name>Hack Squats</name>
+                <description>Hack squats</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>9103ba6f-1c22-4566-8734-a1b233e39ba1</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>225</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>82d542aa-1bbe-4671-a5d0-ff9c1595ffd9</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>315</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>95107502-b9d8-43fb-b414-a0d71fc8e80d</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>11</reps>
+                  <weight>475</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>e2a46e80-8a11-4ee7-b8ac-867bc31e5b53</id>
+                <name>Hamstrings</name>
+                <description>Hamstring curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>5518766e-9fd9-48e5-ae3f-81a06f3fbaac</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>80</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>6e5c2d8b-4ac2-409c-959f-ef3f05ccab46</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>90</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>cc737e6b-9d24-4c53-98e8-9efd7884a6c0</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>7</reps>
+                  <weight>100</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>afd3dd2c-cc71-41cc-bf25-0387ae496ebb</id>
+                <name>Thighs</name>
+                <description>Thigh extensions</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>5fd8a9da-8406-4c5f-b6a3-273a0b510204</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>59dbc758-96db-47da-aea2-27852f89d66b</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>130</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>c3ece6d7-ee8f-4f27-8b97-b6cbc57c2fed</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>140</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>982e4b6f-f24f-448f-a1fc-03cbe353a5b6</id>
+                <name>Calves</name>
+                <description>Calf raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f9fb524c-0c5d-4dc6-a17b-c2cc6fde6b7c</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>250</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d19d2962-8041-4e27-8155-119b70dea318</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>250</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d9a761ea-64eb-4e2a-94a1-a06183f8698c</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>250</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>822326f4-285c-48ea-805a-c6e2f780810a</id>
+        <name>Day 10 - 12/17/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>f68979c0-a71d-406d-86a0-06fe3d7aa987</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>f68979c0-a71d-406d-86a0-06fe3d7aa987</id>
+            <name>Day 1</name>
+            <description>Chest and Back</description>
+          </entity>
+          <date>2024-12-18T13:44:29</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>15ebc55a-9c83-4c4c-bec1-3d1f22bd18a3</id>
+                <name>Bench Press</name>
+                <description>Lift bar above chest</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>acc7ce53-b0da-40e0-9aae-a40d04a63b90</id>
+                    <name>Set 1</name>
+                    <description>Warm-up</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>d7106b9f-5582-4bf3-aa5b-888982cdf93f</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>185</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>2b14f1a3-370e-40ff-a7aa-d50f90d75fb3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>3</reps>
+                  <weight>225</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6319842b-9d33-4488-b6e1-3bed7911229f</id>
+                <name>Incline Press</name>
+                <description>Lift bar at an incline</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>295e1a5e-6a2a-4308-a0f1-2feda1544344</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>135</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>e61621d4-6f64-46d2-826d-968ba3a80303</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>6</reps>
+                  <weight>155</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>aa76af55-31c5-41cf-8a93-1d72626834a2</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>4</reps>
+                  <weight>165</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8a3cb93-7fc4-4e05-9f2f-3b69b0d32f20</id>
+                <name>Flys</name>
+                <description>Dumbbell flys</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>70ea0561-fbe3-4651-a874-3db77c730ff6</id>
+                    <name>Set 1</name>
+                    <description>10.3.2</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7d51993b-7ea4-42e2-8299-e508eba11be7</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>30</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>8a44ae4b-90f4-4515-bcf8-251786cc6884</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>15</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>4b98c83c-ebe4-49f6-8c59-aa261ac0a416</id>
+                <name>Pull Down</name>
+                <description>Lat pulldowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>ccb53940-7eb6-4ed6-8914-059f7fc525fa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>26444d4a-fa1c-46f4-ade5-2a7e931bf9ae</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>7763c076-c01c-40fa-b62e-10fd8d0af5b5</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>121</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>34db9ec3-944f-4858-97f0-c47de679cc41</id>
+                <name>Pull Back</name>
+                <description>Seated rows</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>33e1510c-200b-44d8-8841-8cd521c432e8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>110</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>17a96797-8be1-4815-81eb-78886306c6a5</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>121</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3c69b65e-6915-43d2-ae01-acadd3e9c099</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>6</reps>
+                  <weight>143</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>0a60b5b2-a4e5-4065-9633-c4f60adefeca</id>
+        <name>Daily Routine - 12/8/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:44:40.5327728-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>18</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>f34e58de-0d1c-4fb9-9f4d-bfce5128d6da</id>
+        <name>Daily Routine - 12/9/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:44:48.1335677-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>20</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>11</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>11</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>216e5b51-2fcf-4b56-bf95-6fee1434db4d</id>
+        <name>Daily Routine - 12/10/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:44:53.0833077-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>22</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>15</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>12</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>983c55c7-678f-40c0-9968-96c42b2ddc3d</id>
+        <name>Daily Routine - 12/11/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:44:58.4919699-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>25</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>16</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>14</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>b3dbac4b-6883-4e15-802c-9f94290666d5</id>
+        <name>Daily Routine - 12/12/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:45:04.8929139-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>30</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>20</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>15</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>8c278d1e-8490-43f2-85b8-40901daad8fe</id>
+        <name>Daily Routine - 12/13/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:45:09.5632225-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>32</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>25</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>20</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>9079e158-82ba-47a3-910a-a5355a428c44</id>
+        <name>Daily Routine - 12/14/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:45:19.0349476-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>33</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>30</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>21</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>6daedf4b-bde2-44c1-af2c-2cd192eaf128</id>
+        <name>Daily Routine - 12/15/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:45:22.868029-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>34</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>31</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>24</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>f47f483c-b48d-4fd8-b7e6-1341f6576675</id>
+        <name>Daily Routine - 12/16/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:45:36.4998583-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>34</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>35</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>27</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>873c2359-82a0-43f4-99ae-6b3c1a72813f</id>
+        <name>Daily Routine - 12/17/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:59:41.4367933-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>35</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>40</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>27</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>d68eb05a-9b86-48e2-a225-f70bcacdae6b</id>
+        <name>Daily Routine - 12/18/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T13:59:59.5165107-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>37</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>40</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>40</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>6030a29e-8846-4417-8d6a-265c860994d4</id>
+        <name>Daily Routine - 12/19/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T14:04:34.4037801-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>37</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>41</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>41</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>4af1e706-bec8-4469-82e7-0b290cbbb775</id>
+        <name>Daily Routine - 12/20/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T14:06:24.8678553-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>37</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>41</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>41</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>79d8985d-a3df-46f0-b118-5041cacae468</id>
+        <name>Daily Routine - 12/21/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-23T14:07:15.3372723-06:00</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>40</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>50</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>50</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>5e8972be-6d66-4f71-aeb0-fd610009c7f4</id>
+        <name>Day 11 - 12/26/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>8d40fbd1-7364-4ab2-b7e6-a4672ec4cb2d</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>3019c245-57a5-4c5d-a20d-9ee56098130a</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>3019c245-57a5-4c5d-a20d-9ee56098130a</id>
+            <name>Day 2</name>
+            <description>Shoulders and Arms</description>
+          </entity>
+          <date>2024-12-26T20:06:48</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>230d67dd-16ab-403a-9fc2-abcdf330c449</id>
+                <name>Shoulder Press</name>
+                <description>Lift bar above head</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>c1323cee-5e03-41c3-8549-0f4c7f5fbd38</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>58da0901-4053-43a1-b7e8-8ee0d8ad5047</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>8</reps>
+                  <weight>115</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>0ea3267f-5988-418f-8cd2-74b850af4c53</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>4</reps>
+                  <weight>115</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>c585bb6d-7414-44ff-802f-e9e43a6342c4</id>
+                <name>Shoulder Flap</name>
+                <description>Dumbbell lateral raises</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>f7a496c2-2a24-4d89-8ae6-5bad56610251</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1b57e163-e254-4eb4-978b-c03a079d43d3</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>f731a861-896c-4316-a9b0-acc9b33bdc1b</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>35</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>6c2b3a68-8326-4bc0-950b-661fcec8f539</id>
+                <name>Traps</name>
+                <description>Shrugs</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>1d6a018a-90fd-4671-b676-d7dadd81b858</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>019758dd-5e74-4e2a-9e9c-6e8abf9719f2</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>32e76f37-482c-4a9d-a624-4a15278a56ae</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>70</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>b8f65d7e-beb8-43b0-ac5e-4f1f7d222f9d</id>
+                <name>Triceps</name>
+                <description>Tricep pushdowns</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3cd09e1b-c462-41de-9e3e-91d6fe85edf8</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>60</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>ccc654b5-4dbf-402e-adba-abf8f8ec8129</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>66</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>3eb7daca-c127-433c-b6ef-94e63188a6e3</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>7</reps>
+                  <weight>71</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>52aae584-e7a1-41f3-b41d-4a8cd73ffee8</id>
+                <name>Biceps</name>
+                <description>Bicep curls</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>2a7b0548-c51d-4534-afdc-f2c2aab9edfa</id>
+                    <name>Set 1</name>
+                    <description></description>
+                  </entity>
+                  <number>1</number>
+                  <reps>10</reps>
+                  <weight>38</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>1afaafcb-58fb-4ea7-9d47-7e1bc41a4bc8</id>
+                    <name>Set 2</name>
+                    <description></description>
+                  </entity>
+                  <number>2</number>
+                  <reps>10</reps>
+                  <weight>44</weight>
+                </set>
+                <set>
+                  <entity>
+                    <id>fd83149d-96e9-4040-b3ed-2a0a327c0078</id>
+                    <name>Set 3</name>
+                    <description></description>
+                  </entity>
+                  <number>3</number>
+                  <reps>10</reps>
+                  <weight>49</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+    <workout_session>
+      <entity>
+        <id>379232dd-857c-4407-b76a-241f91c76c71</id>
+        <name>Daily Routine - 12/26/2024</name>
+        <description />
+      </entity>
+      <bioID>b75455f1-63be-4ac9-932f-d2b61888c255</bioID>
+      <profieID>2880624b-f0c2-4828-bf2b-bce9ca706c06</profieID>
+      <routineID>b0ffad48-a645-4623-a389-804df6fc6af8</routineID>
+      <planID>818bff41-ba9a-49cc-960e-399c51c964f4</planID>
+      <orginalExerciseDayID>dc303779-f304-4e80-9d21-051cd0201b5d</orginalExerciseDayID>
+      <EDay>
+        <exercise_day>
+          <entity>
+            <id>dc303779-f304-4e80-9d21-051cd0201b5d</id>
+            <name>Daily Routine</name>
+            <description>every day</description>
+          </entity>
+          <date>2024-12-26T20:11:30</date>
+          <exercises>
+            <exercise>
+              <entity>
+                <id>31fdca33-96f7-4951-88ba-5387ae1d193a</id>
+                <name>Push ups</name>
+                <description>Do as many push ups as possiable in one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>b9559d80-4bec-4f67-8a22-2675e5fbbae1</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>41</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>3ea1de45-2485-4e37-90c6-10b749162887</id>
+                <name>Squats ups</name>
+                <description>Do 1 squats, then calvf raise once and then lift each chin once: that's one set</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>3bfafa93-c391-47c7-89e5-d1ecc4ffbfcc</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>51</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>50e0966b-bb2f-4a3e-bb11-e73169635887</id>
+                <name>Lunges</name>
+                <description>Lunges with no weights</description>
+              </entity>
+              <duration>PT0S</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>06369d85-04e0-4ce2-8a6d-f56abcf512d9</id>
+                    <name>Set 1</name>
+                    <description>Max Out</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>51</reps>
+                  <weight>0</weight>
+                </set>
+              </sets>
+            </exercise>
+            <exercise>
+              <entity>
+                <id>f122d18f-327c-4340-baf5-04bf6b999cb1</id>
+                <name>3-mile jog</name>
+                <description>Jog 3 miles</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets />
+            </exercise>
+            <exercise>
+              <entity>
+                <id>2a8552da-5c71-4d34-944e-85a0666f919f</id>
+                <name>Stationary Cycle</name>
+                <description>Stationary Cycle at the gym - 30 mins</description>
+              </entity>
+              <duration>PT30M</duration>
+              <sets>
+                <set>
+                  <entity>
+                    <id>854dad1e-5ff5-4da5-93b9-cdf146cb6729</id>
+                    <name>30 mins</name>
+                    <description>enter the number of miles in weight for now</description>
+                  </entity>
+                  <number>1</number>
+                  <reps>1</reps>
+                  <weight>7</weight>
+                </set>
+              </sets>
+            </exercise>
+          </exercises>
+        </exercise_day>
+      </EDay>
+    </workout_session>
+  </workout_sessions>
+</bio>

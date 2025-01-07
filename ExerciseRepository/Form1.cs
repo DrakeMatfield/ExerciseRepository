@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using ExerciseRepository.Business_Entities;
 using ExerciseRepository.Data;
 using ExerciseRepository.Helper_Functions;
+using ExerciseRepository.Data_Access;
 
 namespace ExerciseRepository
 {
@@ -125,7 +126,8 @@ This about is use as a placeholder as the itnial  Master.";
                 string filename = this.openFileDialog1.FileName;
                 bio = Business_Logic.OpenBio(filename);
                 console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
-                this.bioBindingSource.DataSource = bio;
+               
+                  this.bioBindingSource.DataSource = bio;
                 this.plansBindingSource.DataSource = bio.profile.Plans[0];
                 this.routinesBindingSource.DataSource = bio.profile.Plans[0].Routines;
                 this.bioBindingSource.ResetBindings(false);
@@ -134,6 +136,7 @@ This about is use as a placeholder as the itnial  Master.";
                 // routinesDataGridView.DataMember = "bio.profile.Plans[0].Routines";
 
             }
+
         }
 
         private void btnShowWorkotSessions_Click(object sender, EventArgs e)
@@ -180,6 +183,45 @@ This about is use as a placeholder as the itnial  Master.";
             this.bioBindingSource.ResetBindings(false);
             //this.worksessionsBindingSource.ResetBindings(false);
         }
+
+        private void toXmlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.Filter = "xml files (*.xml)|*.xml|All files (*.*)|*.*";
+            saveFileDialog1.RestoreDirectory = true;
+            saveFileDialog1.DefaultExt = "xml";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filename = saveFileDialog1.FileName;
+
+                Business_Logic.ExportToXML(filename, bio);
+                MessageBox.Show("Bio saved successfully!");
+            }
+        }
+
+        private void fromXmlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "xml Files (.xml)|*.xml|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string filename = this.openFileDialog1.FileName;
+                bio = Business_Logic.ImportBioFromXml(filename);
+                console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
+
+                this.bioBindingSource.DataSource = bio;
+                this.plansBindingSource.DataSource = bio.profile.Plans[0];
+                this.routinesBindingSource.DataSource = bio.profile.Plans[0].Routines;
+                this.bioBindingSource.ResetBindings(false);
+                Business_Logic.Predefine_ExerciseDays = Business_Logic.GetAllExerciseDays(bio);
+                // this.worksessionsBindingSource.DataSource = bio.worksessions;
+                // routinesDataGridView.DataMember = "bio.profile.Plans[0].Routines";
+
+            }
+        }
+
+    
 
      
 

@@ -8,35 +8,50 @@ namespace ExerciseRepository.Business_Entities
 {
     static class Business_Logic
     {
-           private static List<ExerciseDay> exerciseDays;
+        private static List<ExerciseDay> exerciseDays;
 
-            public static List<ExerciseDay> Predefine_ExerciseDays
+        public static List<ExerciseDay> Predefine_ExerciseDays
+        {
+            get
             {
-                get
+                if (exerciseDays == null)
                 {
-                    if (exerciseDays == null)
-                    {
-                        exerciseDays = new List<ExerciseDay>();
-                    }
-                    return exerciseDays;
+                    exerciseDays = new List<ExerciseDay>();
                 }
-                set
-                {
-                    exerciseDays = value;
-                }
+                return exerciseDays;
             }
-      
+            set
+            {
+                exerciseDays = value;
+            }
+        }
+
 
         // Save bio data
         public static void SaveBio(string filePath, Bio bio)
         {
-            ExerciseRepositoryDataObject data = new ExerciseRepositoryDataObject(filePath,bio);
+            ExerciseRepositoryDataObject data = new ExerciseRepositoryDataObject(filePath, bio);
 
             IRepository r = Repository.Get_DataAccess(DataAccess_Type.FILE);
             r.Save(data);
         }
 
-        // Create new bio
+        public static void ExportToXML(string filePath, Bio bio)
+        {
+            ExerciseRepositoryDataObject data = new ExerciseRepositoryDataObject(filePath, bio);
+
+            IRepository r = Repository.Get_DataAccess(DataAccess_Type.FILE);
+            r.ExportToXml(data);
+        }
+
+        // import bio
+        public static Bio ImportBioFromXml(string filePath)
+        {
+            IRepository r = Repository.Get_DataAccess(DataAccess_Type.FILE);
+            ExerciseRepositoryDataObject data = r.ImportFromXml(filePath);
+            return data.bio_data;
+        }
+
         public static void CreateBio()
         {
             // Implementation here

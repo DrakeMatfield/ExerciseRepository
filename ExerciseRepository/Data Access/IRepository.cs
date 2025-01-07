@@ -8,8 +8,10 @@ namespace ExerciseRepository.Data_Access
     public interface IRepository
     {
         void Save(ExerciseRepositoryDataObject dataObject);
+        void ExportToXml(ExerciseRepositoryDataObject dataObject);
         ExerciseRepositoryDataObject Get(string fileName);
-
+        ExerciseRepositoryDataObject ImportFromXml(string fileName);
+        
     }
 
     public enum DataAccess_Type

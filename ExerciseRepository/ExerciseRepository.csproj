@@ -62,6 +62,7 @@
     <Compile Include="ConsoleForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Data Access\BioParser.cs" />
     <Compile Include="Data Access\ExerciseRepositoryDataObject.cs" />
     <Compile Include="Data Access\FileRepository.cs" />
     <Compile Include="Data Access\IRepository.cs" />
@@ -111,6 +112,9 @@
     <Compile Include="WorkoutSessionsForm.Designer.cs">
       <DependentUpon>WorkoutSessionsForm.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\XMLFile.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Misc\" />
