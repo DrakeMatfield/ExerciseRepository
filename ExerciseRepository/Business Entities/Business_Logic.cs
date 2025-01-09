@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ExerciseRepository.Data_Access;
+using System.Xml.Linq;
+using System.Xml.Xsl;
+using System.Xml;
+using System.IO;
 
 namespace ExerciseRepository.Business_Entities
 {
     static class Business_Logic
     {
+        public static XslCompiledTransform xslt;
         private static List<ExerciseDay> exerciseDays;
 
         public static List<ExerciseDay> Predefine_ExerciseDays
@@ -24,6 +29,37 @@ namespace ExerciseRepository.Business_Entities
             {
                 exerciseDays = value;
             }
+        }
+
+        public static XslCompiledTransform LoadXsltFromString(string xsltString, bool enableScript)
+        {
+            XslCompiledTransform xslt = new XslCompiledTransform();
+            XsltSettings settings = new XsltSettings();
+            settings.EnableScript = enableScript;
+
+            using (StringReader sr = new StringReader(xsltString))
+            using (XmlReader xr = XmlReader.Create(sr))
+            {
+                xslt.Load(xr, settings, new XmlUrlResolver());
+            }
+
+            return xslt;
+        }
+
+        public static XslCompiledTransform LoadXsltFromFile(string xsltFilename, bool enableScript)
+        {
+            // Get the base directory of the application 
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            // Combine the base directory with the relative path to the XSLT file 
+            string xsltFile = Path.Combine(baseDirectory, @"..\..\Data\" + xsltFilename);
+
+            XslCompiledTransform xslt = new XslCompiledTransform();
+            XsltSettings settings = new XsltSettings();
+            settings.EnableScript = enableScript;
+
+            xslt.Load(xsltFile, settings, new XmlUrlResolver());
+
+            return xslt;
         }
 
 
@@ -51,6 +87,24 @@ namespace ExerciseRepository.Business_Entities
             ExerciseRepositoryDataObject data = r.ImportFromXml(filePath);
             return data.bio_data;
         }
+
+
+        public static string DisplayExerciseDay(ExerciseDay element)
+        {
+            // Convert the selected ExerciseDay object to XML
+            XElement xml = BioParser.ConvertExerciseDayToXml(element);
+
+            // Use the XSLT to transform the XML and capture the result as a string
+            using (StringWriter writer = new StringWriter())
+            using (XmlReader reader = xml.CreateReader())
+            {
+                xslt.Transform(reader, null, writer);
+                string results = writer.ToString();
+
+                return results;
+            }
+        }
+
 
         public static void CreateBio()
         {

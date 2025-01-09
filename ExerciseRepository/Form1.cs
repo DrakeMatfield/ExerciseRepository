@@ -10,6 +10,10 @@ using ExerciseRepository.Business_Entities;
 using ExerciseRepository.Data;
 using ExerciseRepository.Helper_Functions;
 using ExerciseRepository.Data_Access;
+using System.Xml.Xsl;
+using System.Xml;
+using System.IO;
+using System.Xml.Linq;
 
 namespace ExerciseRepository
 {
@@ -73,6 +77,8 @@ This about is use as a placeholder as the itnial  Master.";
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Business_Logic.xslt = Business_Logic.LoadXsltFromFile("transform.xslt", true);
+
             //bio = TestData.CreateDrakeBio();
 
             // Get the bio details as a string
@@ -126,8 +132,8 @@ This about is use as a placeholder as the itnial  Master.";
                 string filename = this.openFileDialog1.FileName;
                 bio = Business_Logic.OpenBio(filename);
                 console.LogMessage(Printsouts.ProcessHierarchyString(bio.ToString()));
-               
-                  this.bioBindingSource.DataSource = bio;
+
+                this.bioBindingSource.DataSource = bio;
                 this.plansBindingSource.DataSource = bio.profile.Plans[0];
                 this.routinesBindingSource.DataSource = bio.profile.Plans[0].Routines;
                 this.bioBindingSource.ResetBindings(false);
@@ -221,9 +227,51 @@ This about is use as a placeholder as the itnial  Master.";
             }
         }
 
-    
+        private void btn_xslt_test_Click(object sender, EventArgs e)
+        {
+            string results;
 
-     
+            if (bio != null)
+            {
+
+                // Convert the selected ExerciseDay object to XML
+                string xml = BioParser.ConvertBioToXml(bio);
+
+                // Use the XSLT to transform the XML and capture the result as a string
+                using (StringReader stringReader = new StringReader(xml))
+                using (XmlReader reader = XmlReader.Create(stringReader))
+                using (StringWriter writer = new StringWriter())
+                {
+                    Business_Logic.xslt.Transform(reader, null, writer);
+                    results = writer.ToString();
+                }
+
+                // Display the transformed result in the console
+                console.LogMessage(results);
+            }
+        }
+
+        private void daysDataGridView_DoubleClick(object sender, EventArgs e)
+        {
+
+            // Get the selected item in the GridView, which should be an object of ExerciseDay
+            if (daysDataGridView.CurrentRow != null && daysDataGridView.CurrentRow.DataBoundItem is ExerciseDay)
+            {
+                ExerciseDay eday = (ExerciseDay)daysDataGridView.CurrentRow.DataBoundItem;
+                string results = Business_Logic.DisplayExerciseDay(eday);
+                // Display the result in a message box
+                MessageBox.Show(results);
+            }
+            else
+            {
+                MessageBox.Show("Please select a valid ExerciseDay entry.");
+            }
+        }
+
 
     }
+
+
 }
+
+

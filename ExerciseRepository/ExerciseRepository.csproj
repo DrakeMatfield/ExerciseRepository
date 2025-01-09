@@ -114,6 +114,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\transform.xslt" />
     <Content Include="Data\XMLFile.xml" />
   </ItemGroup>
   <ItemGroup>

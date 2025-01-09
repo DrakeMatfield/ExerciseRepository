@@ -1,1 +1,93 @@
 ﻿use for personal notes aka copying and pasting stuff.
+
+using System;
+using System.Windows.Forms;
+using System.Xml.Xsl;
+using System.Xml;
+
+public class Form1 : Form
+{
+    private WebBrowser webBrowser;
+
+    public Form1()
+    {
+        webBrowser = new WebBrowser();
+        webBrowser.Dock = DockStyle.Fill;
+        this.Controls.Add(webBrowser);
+
+        // Transform XML to HTML using XSLT
+        string xmlPath = "path_to_your_xml.xml";
+        string xsltPath = "path_to_your_xslt.xsl";
+        string htmlContent = TransformXmlToHtml(xmlPath, xsltPath);
+
+        // Display HTML content in WebBrowser
+        webBrowser.DocumentText = htmlContent;
+    }
+
+    private string TransformXmlToHtml(string xmlPath, string xsltPath)
+    {
+        XslCompiledTransform xslt = new XslCompiledTransform();
+        xslt.Load(xsltPath);
+
+        using (XmlReader xmlReader = XmlReader.Create(xmlPath))
+        using (System.IO.StringWriter writer = new System.IO.StringWriter())
+        using (XmlWriter xmlWriter = XmlWriter.Create(writer, xslt.OutputSettings))
+        {
+            xslt.Transform(xmlReader, xmlWriter);
+            return writer.ToString();
+        }
+    }
+
+    [STAThread]
+    public static void Main()
+    {
+        Application.EnableVisualStyles();
+        Application.Run(new Form1());
+    }
+}
+
+
+ <xsl:template match="/">
+    <xsl:for-each select="exercise_day">
+      <!-- Print the exercise day date using the extension function -->
+      <xsl:text>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;</xsl:text>
+      <!-- Tab -->
+      <xsl:value-of select="ext:FormatDate(date)" />
+      <xsl:text>&#10;</xsl:text>
+      <!-- Newline -->
+      <xsl:value-of select="entity/name" />
+      <xsl:text>: </xsl:text>
+      <xsl:value-of select="entity/description" />
+      <xsl:text>&#10;</xsl:text>
+      <!-- Newline -->
+      <!-- Iterate over each exercise -->
+      <xsl:for-each select="exercises/exercise">
+
+        <!-- Print exercise name -->
+        <xsl:value-of select="entity/name" />
+        <xsl:text>&#10;</xsl:text>
+        <!-- Newline -->
+        <xsl:text>-------------></xsl:text>
+        <!--  -->
+        <xsl:text>&#9;&#9;</xsl:text>
+        <!-- Tab -->
+        <!--<xsl:text>:&#10;</xsl:text> -->
+        <!-- Newline -->
+
+        <!-- Iterate over each set -->
+        <xsl:for-each select="sets/set">
+          <!-- Print set number, reps, and weight -->
+          <xsl:text>set </xsl:text>
+          <xsl:value-of select="number" />
+          <xsl:text>: [</xsl:text>
+          <xsl:value-of select="reps" />
+          <xsl:text> x </xsl:text>
+          <xsl:value-of select="weight" />
+          <xsl:text>]&#9;</xsl:text>
+          <!-- Tab -->
+        </xsl:for-each>
+        <xsl:text>&#10;</xsl:text>
+        <!-- Newline -->
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:template>

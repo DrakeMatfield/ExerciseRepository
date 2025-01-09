@@ -38,14 +38,15 @@
             System.Windows.Forms.Label nameLabel2;
             System.Windows.Forms.Label idLabel4;
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toXmlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fromXmlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTestSave = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.btnOpenBio = new System.Windows.Forms.Button();
@@ -103,7 +104,7 @@
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fromXmlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btn_xslt_test = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.plansBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -244,20 +245,6 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // consoleToolStripMenuItem
-            // 
-            this.consoleToolStripMenuItem.Name = "consoleToolStripMenuItem";
-            this.consoleToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.consoleToolStripMenuItem.Text = "Console";
-            this.consoleToolStripMenuItem.Click += new System.EventHandler(this.consoleToolStripMenuItem_Click);
-            // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -272,13 +259,13 @@
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.openToolStripMenuItem.Text = "Open";
             // 
             // exportToolStripMenuItem
@@ -286,13 +273,13 @@
             this.exportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toXmlToolStripMenuItem});
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.exportToolStripMenuItem.Text = "Export";
             // 
             // toXmlToolStripMenuItem
             // 
             this.toXmlToolStripMenuItem.Name = "toXmlToolStripMenuItem";
-            this.toXmlToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.toXmlToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.toXmlToolStripMenuItem.Text = "to Xml";
             this.toXmlToolStripMenuItem.Click += new System.EventHandler(this.toXmlToolStripMenuItem_Click);
             // 
@@ -301,8 +288,29 @@
             this.importToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fromXmlToolStripMenuItem});
             this.importToolStripMenuItem.Name = "importToolStripMenuItem";
-            this.importToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.importToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.importToolStripMenuItem.Text = "Import";
+            // 
+            // fromXmlToolStripMenuItem
+            // 
+            this.fromXmlToolStripMenuItem.Name = "fromXmlToolStripMenuItem";
+            this.fromXmlToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.fromXmlToolStripMenuItem.Text = "from Xml";
+            this.fromXmlToolStripMenuItem.Click += new System.EventHandler(this.fromXmlToolStripMenuItem_Click);
+            // 
+            // consoleToolStripMenuItem
+            // 
+            this.consoleToolStripMenuItem.Name = "consoleToolStripMenuItem";
+            this.consoleToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.consoleToolStripMenuItem.Text = "Console";
+            this.consoleToolStripMenuItem.Click += new System.EventHandler(this.consoleToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // btnTestSave
             // 
@@ -337,6 +345,7 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.AutoScroll = true;
+            this.splitContainer1.Panel1.Controls.Add(this.btn_xslt_test);
             this.splitContainer1.Panel1.Controls.Add(this.groupBox8);
             this.splitContainer1.Panel1.Controls.Add(this.btnShowWorkotSessions);
             this.splitContainer1.Panel1.Controls.Add(this.button1);
@@ -608,6 +617,7 @@
             this.daysDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.daysDataGridView.Size = new System.Drawing.Size(449, 195);
             this.daysDataGridView.TabIndex = 0;
+            this.daysDataGridView.DoubleClick += new System.EventHandler(this.daysDataGridView_DoubleClick);
             // 
             // daysBindingSource
             // 
@@ -826,12 +836,15 @@
             this.dataGridViewTextBoxColumn24.HeaderText = "EDay";
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             // 
-            // fromXmlToolStripMenuItem
+            // btn_xslt_test
             // 
-            this.fromXmlToolStripMenuItem.Name = "fromXmlToolStripMenuItem";
-            this.fromXmlToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fromXmlToolStripMenuItem.Text = "from Xml";
-            this.fromXmlToolStripMenuItem.Click += new System.EventHandler(this.fromXmlToolStripMenuItem_Click);
+            this.btn_xslt_test.Location = new System.Drawing.Point(13, 79);
+            this.btn_xslt_test.Name = "btn_xslt_test";
+            this.btn_xslt_test.Size = new System.Drawing.Size(75, 23);
+            this.btn_xslt_test.TabIndex = 8;
+            this.btn_xslt_test.Text = "xslt test";
+            this.btn_xslt_test.UseVisualStyleBackColor = true;
+            this.btn_xslt_test.Click += new System.EventHandler(this.btn_xslt_test_Click);
             // 
             // dataGridViewTextBoxColumn46
             // 
@@ -1089,6 +1102,7 @@
         private System.Windows.Forms.ToolStripMenuItem toXmlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fromXmlToolStripMenuItem;
+        private System.Windows.Forms.Button btn_xslt_test;
     }
 }
 
